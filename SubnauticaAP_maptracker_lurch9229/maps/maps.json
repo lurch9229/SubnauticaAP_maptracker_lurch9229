@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Crater",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/maps/main_map.png"
+  },
+  {
+    "name": "CaveNetwork",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/maps/cave_network.png"
+  }  
+]
