@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "name": "Bulb Zone Wreck (x: 903, y: -220, z: 590)",
+                "name": "Bulb Zone West Wreck (x: 903, y: -220, z: 590)",
                 "map_locations": 
                 [
                     {
@@ -135,6 +135,28 @@
                             "vehiclebay:3, seamoth:3, rebreather",
                             "vehiclebay:3, prawn:4",
                             "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bulb Zone Wreck East (x: 1292, y: -200, z: 583)",
+                "map_locations": 
+                [
+                    {
+                        "map": "Crater",
+                        "x": 720,
+                        "y": 266
+                    }
+                ],
+                "sections": 
+                [       
+                    {
+                        "name": "Databox",
+                        "access_rules": 
+                        [
+                            "rebreather"
                         ],
                         "item_count": 1
                     }
