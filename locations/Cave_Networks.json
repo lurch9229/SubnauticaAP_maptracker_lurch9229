@@ -1,0 +1,249 @@
+[
+    {
+        "name": "Cave Network",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+        [
+            {
+                "name": "Jellyshroom Seabase \n (x: 114, y: -258, z: -372)",
+                "map_locations": 
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 380,
+                        "y": 700
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Inside Seabase PDAs",
+                        "access_rules":
+                        [
+                            "seaglide:2, rebreather",
+                            "hightank, fins, rebreather, modify:3",
+                            "vehiclebay:3, seamoth:3, rebreather",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Detatched PDA",
+                        "access_rules":
+                        [
+                            "seaglide:2, rebreather",
+                            "hightank, fins, rebreather, modify:3",
+                            "vehiclebay:3, seamoth:3, rebreather",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "NW of Seabase PDA",
+                        "access_rules":
+                        [
+                            "seaglide:2, rebreather",
+                            "hightank, fins, rebreather, modify:3",
+                            "vehiclebay:3, seamoth:3, rebreather",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Databox",
+                        "access_rules":
+                        [
+                            "seaglide:2, rebreather",
+                            "hightank, fins, rebreather, modify:3",
+                            "vehiclebay:3, seamoth:3, rebreather",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Jellyshroom Platform \n (x: -540.5, y: -250.8, z: -83.4)",
+                "map_locations": 
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 183,
+                        "y": 620
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "PDA",
+                        "access_rules":
+                        [
+                            "seaglide:2, rebreather",
+                            "hightank, fins, rebreather, modify:3",
+                            "vehiclebay:3, seamoth:3, rebreather",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }, 
+            {
+                "name": "Lost River Laboratory \n (x: -222, y: -791, z: 320)",
+                "map_locations": 
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 218,
+                        "y": 155
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Alien Terminal Entrance \n (Requires Purple Tablet)",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien Terminal Center",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien Terminal Back",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lost River Cache (requires purple tablet) \n (x:-1113, y:-684, z:-655)",
+                "map_locations": 
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 88,
+                        "y": 270
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Alien Terminal",
+                        "access_rules":
+                        [
+                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
+                            "vehiclebay:3, prawn:4",
+                            "vehiclebay:3, cyclops:9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alien Thermal Plant \n (x: -32, y: -1200, z: 66)",
+                "map_locations": 
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 250,
+                        "y": 400
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Alien Terminal Entrance",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien terminal Tellow",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien Terminal Back",
+                        "access_rules": 
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alien Containment Facility (Requires Blue Tablet) \n (x: 217, y: -1451, z:-259)",
+                "map_locations":
+                [
+                    {
+                        "map": "CaveNetwork",
+                        "x": 290,
+                        "y": 530
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Alien Terminal Entrance",
+                        "access_rules":
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien Terminal Egg Room",
+                        "access_rules":
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alien Terminal Ventilation Room",
+                        "access_rules":
+                        [
+                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
+                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
