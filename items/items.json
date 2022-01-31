@@ -235,7 +235,8 @@
   },
   {
     "name": "Ion Power",
-    "type": "toggle",
+    "type": "consumable",
+    "max_quantity": 2,
     "img": "images/items/Ion_Power_Cell.png",
     "codes": "ionpower"
   },

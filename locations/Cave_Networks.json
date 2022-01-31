@@ -1,8 +1,9 @@
 [
     {
         "name": "Cave Network",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
+        "chest_unopened_img": "images/items/databox_close.png",
+		"overlay_background": "#000000",
+        "chest_opened_img": "images/items/databox_open.png",
         "color": "#FFFFFF",
         "children": 
         [

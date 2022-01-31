@@ -1,13 +1,14 @@
 [
     {
         "name": "Crater",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
+        "chest_unopened_img": "images/items/databox_close.png",
+		"overlay_background": "#000000",
+        "chest_opened_img": "images/items/databox_open.png",
         "color": "#FFFFFF",
         "children": 
         [
             {
-                "name": "Blood Kelp Trench Wreck (x: -1208, y: -332, z: -390",
+                "name": "Blood Kelp Trench Wreck \n (x: -1208, y: -332, z: -390",
                 "map_locations": 
                 [
                     {
@@ -57,7 +58,7 @@
                 ]
             },
             {
-                "name": "Bulb Zone West Wreck (x: 903, y: -220, z: 590)",
+                "name": "Bulb Zone West Wreck \n (x: 903, y: -220, z: 590)",
                 "map_locations": 
                 [
                     {
@@ -103,7 +104,7 @@
                 ]
             },
             {
-                "name": "Bulb Zone Lifepod 12 (x: 1120, y: -265, z: 560)",
+                "name": "Bulb Zone Lifepod 12 \n (x: 1120, y: -265, z: 560)",
                 "map_locations": 
                 [
                     {
@@ -141,7 +142,7 @@
                 ]
             },
             {
-                "name": "Bulb Zone Wreck East (x: 1292, y: -200, z: 583)",
+                "name": "Bulb Zone Wreck East \n (x: 1292, y: -200, z: 583)",
                 "map_locations": 
                 [
                     {
@@ -163,7 +164,7 @@
                 ]
             },
             {
-                "name": "Dunes North Wreck (x: -1407, y: -344, z: 721)",
+                "name": "Dunes North Wreck \n (x: -1407, y: -344, z: 721)",
                 "map_locations": 
                 [
                     {
@@ -225,7 +226,7 @@
                 ]
             },
             {
-                "name": "Dunes Wreck West (x: -1626, y: -357, z: 99)",
+                "name": "Dunes Wreck West \n (x: -1626, y: -357, z: 99)",
                 "map_locations": 
                 [
                     {
@@ -251,7 +252,7 @@
                 ]
             },
             {
-                "name": "Dunes East Wreck (x: -1196, y: -223 z: 12)",
+                "name": "Dunes East Wreck \n (x: -1196, y: -223 z: 12)",
                 "map_locations": 
                 [
                     {
@@ -289,12 +290,12 @@
                 ]
             },
             {
-                "name": "Grand Reef North Wreck (x: -269, y: -262, z: -764)",
+                "name": "Grand Reef North Wreck \n (x: -269, y: -262, z: -764)",
                 "map_locations": 
                 [
                     {
                         "map": "Crater",
-                        "x": 383,
+                        "x": 363,
                         "y": 575
                     }
                 ],
@@ -351,7 +352,7 @@
                 ]
             },
             {
-                "name": "Grand Reef South Wreck (x: -850, y: -473, z: -1414)",
+                "name": "Grand Reef South Wreck \n (x: -850, y: -473, z: -1414)",
                 "map_locations": 
                 [
                     {
@@ -413,7 +414,7 @@
                 ]
             },
             {
-                "name": "Grassy Plateaus South Wreck (x: -23, y: -105, z: -604)",
+                "name": "Grassy Plateaus South Wreck \n (x: -23, y: -105, z: -604)",
                 "map_locations": 
                 [
                     {
@@ -443,7 +444,7 @@
                 ]
             },
             {
-                "name": "Grassy Plateaus East Wreck (x: 313, y: -91, z: 432)",
+                "name": "Grassy Plateaus East Wreck \n (x: 313, y: -91, z: 432)",
                 "map_locations": 
                 [
                     {
@@ -473,7 +474,7 @@
                 ]
             },
             {
-                "name": "Grassy Plateaus West Wreck (x: -632, y: -75, z: -8)",
+                "name": "Grassy Plateaus West Wreck \n (x: -632, y: -75, z: -8)",
                 "map_locations": 
                 [
                     {
@@ -511,7 +512,7 @@
                 ]
             },  
             {
-                "name": "Grassy Plateaus South-West Wreck (x: -418, y: -94 z: -261) ",
+                "name": "Grassy Plateaus South-West Wreck \n (x: -418, y: -94 z: -261) ",
                 "map_locations": 
                 [
                     {
@@ -533,7 +534,7 @@
                 ]
             },
             {
-                "name": "Safe Shallows Wreck (x: -44, y: -29, z: -403)",
+                "name": "Safe Shallows Wreck \n (x: -44, y: -29, z: -403)",
                 "map_locations": 
                 [
                     {
@@ -555,7 +556,7 @@
                 ]
             },
             {
-                "name": "Kelp Forest West Wreck (x: -317, y: -79, z: 248)",
+                "name": "Kelp Forest West Wreck \n (x: -317, y: -79, z: 248)",
                 "map_locations": 
                 [
                     {
@@ -577,7 +578,7 @@
                 ]
             },
             {
-                "name": "Kelp Forest North Wreck (x: 63, y: -38, z: 382)",
+                "name": "Kelp Forest North Wreck \n (x: 63, y: -38, z: 382)",
                 "map_locations": 
                 [
                     {
@@ -599,7 +600,7 @@
                 ]
             },
             {
-                "name": "Mountains Central Wreck (x: 740, y: -346, z: 1220)",
+                "name": "Mountains Central Wreck \n (x: 740, y: -346, z: 1220)",
                 "map_locations": 
                 [
                     {
@@ -661,7 +662,7 @@
                 ]
             },
             {
-                "name": "Mountains East Wreck (x: 1057, y: -254, z: 1359)",
+                "name": "Mountains East Wreck \n (x: 1057, y: -254, z: 1359)",
                 "map_locations": 
                 [
                     {
@@ -699,7 +700,7 @@
                 ]
             },  
             {
-                "name": "Mushroom Forest Wreck (x: -672, y: -113, z: 750)",
+                "name": "Mushroom Forest Wreck \n (x: -672, y: -113, z: 750)",
                 "map_locations": 
                 [
                     {
@@ -737,7 +738,7 @@
                 ]
             },
             {
-                "name": "Sea Treader's Path Wreck (x: -1148, y: -166, z: -706)",
+                "name": "Sea Treader's Path Wreck \n (x: -1148, y: -166, z: -706)",
                 "map_locations": 
                 [
                     {
@@ -764,8 +765,8 @@
                         "name": "Lobby Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
+                            "seaglide:2, rebreather, cutter:3",
+                            "hightank, fins, rebreather, modify:3, cutter:3",
                             "vehiclebay:3, seamoth:3, rebreather, cutter:3",
                             "vehiclebay:3, prawn:4, cutter:3",
                             "vehiclebay:3, cyclops:9, cutter:3"
@@ -791,7 +792,7 @@
                 ]
             },
             {
-                "name": "Sparse Reef Wreck (x: -781, y: -216, z: -730)",
+                "name": "Sparse Reef Wreck \n (x: -781, y: -216, z: -730)",
                 "map_locations": 
                 [
                     {
@@ -841,7 +842,7 @@
                 ]
             },
             {
-                "name": "Underwater Islands Wreck (x: -62, y: -192, z: 862)",
+                "name": "Underwater Islands Wreck \n (x: -62, y: -192, z: 862)",
                 "map_locations": 
                 [
                     {
@@ -903,7 +904,7 @@
                 ]
             },
             {
-                "name": "Deep Grand Reef Seabase (x: -630, y: -500, z: -930)",
+                "name": "Deep Grand Reef Seabase \n (x: -630, y: -500, z: -930)",
                 "map_locations": 
                 [
                     {
@@ -1057,7 +1058,7 @@
                 ]
             },
             {
-                "name": "Lifepod 2 (x: -481.4, y: -503.6, z: 1324)",
+                "name": "Lifepod 2 \n (x: -481.4, y: -503.6, z: 1324)",
                 "map_locations": 
                 [
                     {
@@ -1093,7 +1094,7 @@
                 ]
             },
             {
-                "name": "Lifepod 3 (x: -26, y: -18, z: 414)",
+                "name": "Lifepod 3 \n (x: -26, y: -18, z: 414)",
                 "map_locations": 
                 [
                     {
@@ -1123,13 +1124,13 @@
                 ]
             },
             {
-                "name": "Lifepod 4 (x: 710, y: -5, z: 152)",
+                "name": "Lifepod 4 \n (x: 710, y: -5, z: 152)",
                 "map_locations": 
                 [
                     {
                         "map": "Crater",
-                        "x": 605,
-                        "y": 375
+                        "x": 555,
+                        "y": 415
                     }
                 ],
                 "sections": 
@@ -1153,7 +1154,7 @@
                 ]
             },
             {
-                "name": "Lifepod 6 (x: 356, Y: -109, z: 312)",
+                "name": "Lifepod 6 \n (x: 356, Y: -109, z: 312)",
                 "map_locations": 
                 [
                     {
@@ -1191,7 +1192,7 @@
                 ]
             },
             {
-                "name": "Lifepod 7 (x: -55, Y: -179, X: -1039)",
+                "name": "Lifepod 7 \n (x: -55, Y: -179, X: -1039)",
                 "map_locations": 
                 [
                     {
@@ -1213,7 +1214,7 @@
                 ]
             },
             {
-                "name": "Lifepod 13 (x: -922, y: -177, z: 501)",
+                "name": "Lifepod 13 \n (x: -922, y: -177, z: 501)",
                 "map_locations": 
                 [
                     {
@@ -1243,7 +1244,7 @@
                 ]
             },
             {
-                "name": "Lifepod 17 (x: -515, y: -91, z: -56)",
+                "name": "Lifepod 17 \n (x: -515, y: -91, z: -56)",
                 "map_locations": 
                 [
                     {
@@ -1265,7 +1266,7 @@
                 ]
             },
             {
-                "name": "Lifepod 19 (x: -806, y: -297, z: -882)",
+                "name": "Lifepod 19 \n (x: -806, y: -297, z: -882)",
                 "map_locations": 
                 [
                     {
@@ -1320,8 +1321,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 662,
-                        "y": 398
+                        "x": 642,
+                        "y": 428
                     }
                 ],
                 "sections": 
@@ -1350,8 +1351,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 645,
-                        "y": 410
+                        "x": 625,
+                        "y": 440
                     }
                 ],
                 "sections": 
@@ -1372,8 +1373,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 685,
-                        "y": 410
+                        "x": 665,
+                        "y": 440
                     }
                 ],
                 "sections": 
@@ -1394,8 +1395,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 695,
-                        "y": 390
+                        "x": 675,
+                        "y": 420
                     }
                 ],
                 "sections": 
@@ -1410,7 +1411,16 @@
                         "item_count": 1
                     },
                     {   
-                        "name": "Inside Lab PDA (6483)",
+                        "name": "Inside Lab PDA \n (Code 6483)",
+                        "access_rules": 
+                        [
+                            "radsuit, cannon:2",
+                            "radsuit, cutter:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {   
+                        "name": "Inside Lab Upgrade Console \n (Code 6483)",
                         "access_rules": 
                         [
                             "radsuit, cannon:2",
@@ -1426,8 +1436,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 680,
-                        "y": 395
+                        "x": 660,
+                        "y": 425
                     }
                 ],
                 "sections": 
@@ -1449,7 +1459,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cargo Bay PDA (Code = 1454)",
+                        "name": "Cargo Bay PDA \n (Code 1454)",
                         "access_rules": 
                         [
                             "radsuit"
@@ -1464,8 +1474,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 670,
-                        "y": 435
+                        "x": 650,
+                        "y": 465
                     }
                 ],
                 "sections": 
@@ -1480,7 +1490,7 @@
                         "item_count": 1
                     },  
                     {
-                        "name": "Cabin 1 PDA (1869)",
+                        "name": "Cabin 1 PDA \n (Code 1869)",
                         "access_rules": 
                         [
                             "radsuit, cutter:3, repair",
@@ -1507,7 +1517,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Captain's Quarters PDA (2679)",
+                        "name": "Captain's Quarters PDA \n (Code 2679)",
                         "access_rules": 
                         [
                             "radsuit, cutter:3, repair",
@@ -1516,7 +1526,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Captain's Quarters Data Terminal (2679)",
+                        "name": "Captain's Quarters Data Terminal \n (Code 2679)",
                         "access_rules": 
                         [
                             "radsuit, cutter:3, repair",
@@ -1532,8 +1542,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 665,
-                        "y": 419
+                        "x": 645,
+                        "y": 449
                     }
                 ],
                 "sections": 
@@ -1542,7 +1552,7 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "radsuit, cutter,3repair"
+                            "radsuit, cutter:3, repair"
                         ],
                         "item_count": 1
                     },
@@ -1550,7 +1560,7 @@
                         "name": " Medkit PDA",
                         "access_rules": 
                         [
-                            "radsuit, cutter,3repair"
+                            "radsuit, cutter:3, repair"
                         ],
                         "item_count": 1
                     }
@@ -1562,8 +1572,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 705,
-                        "y": 405
+                        "x": 685,
+                        "y": 435
                     }
                 ],
                 "sections": 
@@ -1610,7 +1620,7 @@
                 ]
             },
             {
-                "name": "Dunes Sanctuary (x: -1256, y: -398, z: 1097)",
+                "name": "Dunes Sanctuary \n (x: -1256, y: -398, z: 1097)",
                 "map_locations": 
                 [
                     {
@@ -1622,7 +1632,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal (Requires Purple Tablet)",
+                        "name": "Alien Terminal \n (Requires Purple Tablet)",
                         "access_rules": 
                         [
                             "seaglide:2, rebreather",
@@ -1636,7 +1646,7 @@
                 ]
             },
             {
-                "name": "Sparse Reef Sanctuary (x: -884, y: -308, z: -792)",
+                "name": "Sparse Reef Sanctuary \n (x: -884, y: -308, z: -792)",
                 "map_locations": 
                 [
                     {
@@ -1648,7 +1658,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal (Requires Purple Tablet)",
+                        "name": "Alien Terminal \n (Requires Purple Tablet)",
                         "access_rules": 
                         [
                             "seaglide:2, rebreather",
@@ -1662,7 +1672,7 @@
                 ]
             },
             {
-                "name": "North Blood Kelp Sanctuary (x: -601, y: -558, z: 1485)",
+                "name": "North Blood Kelp Sanctuary \n (x: -601, y: -558, z: 1485)",
                 "map_locations": 
                 [
                     {
@@ -1674,7 +1684,7 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal (Requires Purple Tablet)",
+                        "name": "Alien Terminal \n (Requires Purple Tablet)",
                         "access_rules": 
                         [
                             "hightank, fins, rebreather, modify:3, seaglide:2",
