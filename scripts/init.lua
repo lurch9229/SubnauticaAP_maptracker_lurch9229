@@ -18,5 +18,9 @@ else if (string.find(Tracker.ActiveVariantUID, "map_tracker"))
     Tracker:AddLayouts("layouts/broadcast_vertical.json")
     Tracker:AddLocations("locations/Crater.json")
     Tracker:AddLocations("locations/Cave_Networks.json")
+
+    if PopVersion and PopVersion>="0.18.0" then
+        ScriptHost:LoadScript("scripts/autotracking.lua")    
+    end
 end
 end
