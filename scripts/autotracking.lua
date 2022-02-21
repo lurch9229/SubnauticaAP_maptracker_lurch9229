@@ -1,3 +1,9 @@
+-- autotracking lua code taken from the minecraft AP autotracker:
+-- 
+-- https://github.com/Cyb3RGER/minecraft_rando_tracker/blob/master/scripts/autotracking.lua
+--
+-- Code written by Cyb3RGER (https://github.com/Cyb3RGER), used with permission.
+
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true or ENABLE_DEBUG_LOG
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
