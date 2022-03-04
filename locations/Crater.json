@@ -1451,6 +1451,14 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Aurora Office Upgrade Console",
+                        "access_rules": 
+                        [
+                            "radsuit"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Outside Cargo Bay PDA",
                         "access_rules": 
                         [

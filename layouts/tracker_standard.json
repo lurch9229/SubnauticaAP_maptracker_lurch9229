@@ -71,17 +71,6 @@
                   }
                 ]
               }
-            },
-            {
-              "type": "group",
-              "header": "Pinned Locations",
-              "content": 
-              {
-                "type": "recentpins",
-                "style": "wrap",
-                "orientation": "vertical",
-                "compact": true
-              }
             }
           ]
         },
@@ -131,7 +120,7 @@
       [
         {
           "type": "dock",
-          "dock": "left",
+          "dock": "bottom",
           "h_alignment": "stretch",
           "content": 
           [
@@ -142,7 +131,7 @@
               [
                 {
                   "type": "group",
-                  "header": "Spirits",
+                  "header": "Equipment",
                   "content": 
                   {
                     "type": "array",
@@ -152,14 +141,14 @@
                     [
                       {
                         "type": "layout",
-                        "key": "lily_spirit_grid"
+                        "key": "equipment_grid"
                       }
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "Relics",
+                  "header": "Vehicles",
                   "content":
                   {
                     "type": "array",
@@ -169,39 +158,9 @@
                     [
                       {
                         "type": "layout",
-                        "key": "lily_relic_grid"
+                        "key": "vehicle_grid"
                       }
                     ]
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Abilities",
-                  "content":
-                  {
-                    "type": "array",
-                    "orientation": "horizontal",
-                    "margin": "0,0",
-                    "content":
-                    [
-                      {
-                        "type": "layout",
-                        "key": "lily_ability_grid"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Pinned Locations",
-                  "content": 
-                  {
-                    "type": "recentpins",
-                    "style": "wrap",
-                    "h_alignment": "stretch",
-                    "v_alignment": "stretch",
-                    "orientation": "horizontal",
-                    "compact": true
                   }
                 }
               ]
