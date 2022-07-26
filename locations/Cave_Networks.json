@@ -185,7 +185,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Alien terminal Tellow",
+                        "name": "Alien terminal Yellow",
                         "access_rules": 
                         [
                             "vehiclebay:3, prawn:4, moonpool:2, console, pd1",

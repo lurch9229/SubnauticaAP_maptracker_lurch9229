@@ -7,3 +7,8 @@ Unzip to folder named the same as this repository in the Packs folder in your Po
 Please address issues to this repository, or contact me on Discord Lurch9229#4849.
 
 I hope you enjoy using this tracker alongside your rando playthroughs. Good Luck, Have Fun everyone.
+
+1.3.0 changlelog
+Creature tracker added
+Fixed mismatched locations (grassy plateau wrecks)
+Added item layout for creature logic... and CUDDLEFISH!! 

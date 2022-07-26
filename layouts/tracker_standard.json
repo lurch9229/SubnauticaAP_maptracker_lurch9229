@@ -22,6 +22,15 @@
       [ "base", "gantry", "boosters", "fuel", "cockpit"]
     ]
   },
+  "comforts_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "50,50",
+    "rows": [
+      ["stasis", "grav", "room", "containment", "Cuddlefish"]
+    ]
+  },
 
 "tracker_horizontal": 
   {
@@ -71,6 +80,23 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "group",
+              "header": "Creature Comforts",
+              "content":
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content":
+                [
+                  {
+                    "type": "layout",
+                    "key": "comforts_grid"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -100,6 +126,26 @@
                     "type": "map",
                     "maps": ["CaveNetwork"]
                   }
+                },
+                { 
+                  "title": "Passive Creatures",
+                  "content":
+                  [ 
+                    {
+                      "type": "map",
+                      "maps": ["PassiveCreatures"]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hostile Creatures",
+                  "content":
+                  [
+                    {
+                      "type": "map",
+                      "maps": ["HostileCreatures"]
+                    }
+                  ]
                 }
               ]
             }
@@ -162,6 +208,23 @@
                       }
                     ]
                   }
+                },
+                {
+                  "type": "group",
+                  "header": "Creature Comforts",
+                  "content":
+                  {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "margin": "0,0",
+                    "content":
+                    [
+                      {
+                        "type": "layout",
+                        "key": "comforts_grid"
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -170,107 +233,50 @@
         {
           "type": "dock",
           "v_alignment": "stretch",
+          "h_alignment": "stretch",
           "margin": "0, 0, 0, 0",
           "content": [
-              {
-                  "type": "tabbed",
-                  "dock": "top",
-                  "tabs": [
-                    {
-                      "title": "World Map",
-                      "content": {
-                        "type": "map",
-                        "maps": ["WorldMap"]
-                      }
-                    }, 
-                    {
-                      "title": "Cathedral",
-                      "content": {
-                        "type": "map",
-                        "maps": ["Cathedral"]
-                      }
-                    },  
-                    {
-                      "title": "Cathedral",
-                      "content": {
-                        "type": "map",
-                        "maps": ["Cathedral"]
-                      }
-                    },
-                    {
-                      "title": "White Parish",
-                      "content": {
-                        "type": "map",
-                        "maps": ["WhiteParish"]
-                      }
-                    },
-                    {
-                      "title": "Cliffside Hamlet West",
-                      "content": {
-                        "type": "map",
-                        "maps": ["CliffsideHamletWest"]
-                      }
-                    },
-                    {
-                      "title": "Cliffside Hamlet East",
-                      "content": {
-                        "type": "map",
-                        "maps": ["CliffsideHamletEast"]
-                      }
-                    },
-                    {
-                      "title": "Witches Thicket",
-                      "content": {
-                        "type": "map",
-                        "maps": ["WitchesThicket"]
-                      }
-                    },
-                    {
-                      "title": "Catacombs",
-                      "content": {
-                        "type": "map",
-                        "maps": ["Catacombs"]
-                      }
-                    },
-                    {
-                      "title": "Twin Spires",
-                      "content": {
-                        "type": "map",
-                        "maps": ["TwinSpires"]
-                      }
-                    },
-                    {
-                      "title": "Stockade",
-                      "content": {
-                        "type": "map",
-                        "maps": ["Stockade"]
-                      }
-                    },
-                    {
-                      "title": "Ruined Castle",
-                      "content": {
-                        "type": "map",
-                        "maps": ["RuinedCastle"]
-                      }
-                    },
-                    {
-                      "title": "Verboten Domain",
-                      "content": {
-                        "type": "map",
-                        "maps": ["VerbotenDomain"]
-                      }
-                    },  
-                    {
-                      "title": "Credits",
-                      "content": {
-                        "type": "map",
-                        "maps": ["Credits"]
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": 
+              [
+                { 
+                  "title": "Crater",
+                  "content": 
+                  {
+                    "type": "map",
+                    "maps": ["Crater"]
                   }
-                }                   
+                },
+                { 
+                  "title": "Cave Networks",
+                  "content": 
+                  {
+                    "type": "map",
+                    "maps": ["CaveNetwork"]
+                  }
+                },
+                { 
+                  "title": "Passive Creatures",
+                  "content": 
+                  {
+                    "type": "map",
+                    "maps": ["PassiveCreatures"]
+                  }
+                },
+                {
+                  "title": "Hostile Creatures",
+                  "content":
+                  { 
+                    "type": "map",
+                    "maps": ["HostileCreatures"]
+                  }
+                }
               ]
             }
           ]
-        } 
+        }
       ]
     }
   }

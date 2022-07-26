@@ -10,5 +10,17 @@
     "location_size": 10,
     "location_border_thickness": 3,
     "img": "images/maps/cave_network.png"
-  }  
+  },
+  {
+    "name": "PassiveCreatures",
+    "location_size": 10,
+    "location_border_thickness": 5,
+    "img": "images/maps/creature_screen.png"
+  },
+  {
+    "name": "HostileCreatures",
+    "location_size": 10,
+    "location_border_thickness": 5,
+    "img": "images/maps/HCreatures.png"
+  }
 ]
