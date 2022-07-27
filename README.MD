@@ -8,6 +8,9 @@ Please address issues to this repository, or contact me on Discord Lurch9229#484
 
 I hope you enjoy using this tracker alongside your rando playthroughs. Good Luck, Have Fun everyone.
 
+1.3.1 changlelog
+Fixed typos that were interfering with autotracking (hopefully all works well now)
+
 1.3.0 changlelog
 Creature tracker added
 Fixed mismatched locations (grassy plateau wrecks)
