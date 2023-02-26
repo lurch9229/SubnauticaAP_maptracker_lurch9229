@@ -4,9 +4,18 @@
     "type": "consumable",
     "loop": "false",
     "img": "images/items/Cyclops.png",
+    "overlay_background": "#000",
     "codes": "cyclops",
     "max_quantity": 9,
     "initial_quantity": 0
+  },
+  {
+    "name": "Grav Trap",
+    "type": "consumable",
+    "img": "images/items/Grav_Trap.png",
+    "max_quantity": 2,
+    "overlay_background": "#000",
+    "codes": "grav"
   }, 
   {
     "name": "Habitat Builder",
@@ -19,6 +28,7 @@
     "name": "Laser Cutter",
     "type": "consumable",
     "img": "images/items/Laser_Cutter.png",
+    "overlay_background": "#000",
     "codes": "cutter",
     "max_quantity": 3,
     "initial_quantity": 0
@@ -27,6 +37,7 @@
     "name": "Mobile Vehicle Bay",
     "type": "consumable",
     "img": "images/items/Mobile_Vehicle_Bay.png",
+    "overlay_background": "#000",
     "codes": "vehiclebay",
     "max_quantity": 3,
     "initial_quantity": 0
@@ -35,6 +46,7 @@
     "name": "Modification Station",
     "type": "consumable",
     "img": "images/items/Modification_Station.png",
+    "overlay_background": "#000",
     "codes": "modify",
     "max_quantity": 3,
     "initial_quantity": 0
@@ -43,6 +55,7 @@
     "name": "PRAWN Suit",
     "type": "consumable",
     "img": "images/items/Prawn_Suit.png",
+    "overlay_background": "#000",
     "codes": "prawn",
     "max_quantity": 4,
     "initial_quantity": 0
@@ -51,6 +64,7 @@
     "name": "Propulsion Cannon",
     "type": "consumable",
     "img": "images/items/Propulsion_Cannon.png",
+    "overlay_background": "#000",
     "codes": "cannon",
     "max_quantity": 2,
     "initial_quantity": 0
@@ -85,6 +99,7 @@
     "name": "Seaglide",
     "type": "consumable",
     "img": "images/items/Seaglide.png",
+    "overlay_background": "#000",
     "codes": "seaglide,glide",
     "max_quantity": 2,
     "initial_quantity": 0
@@ -93,9 +108,18 @@
     "name": "Seamoth (200m)",
     "type": "consumable",
     "img": "images/items/Seamoth.png",
+    "overlay_background": "#000",
     "codes": "seamoth",
     "max_quantity": 3,
     "initial_quantity": 0
+  },
+  {
+    "name": "Stasis Rifle",
+    "type": "consumable",
+    "max_quantity": 2,
+    "img": "images/items/Stasis_Rifle.png",
+    "codes": "stasis",
+    "overlay_background": "#000"
   },
   {
     "name": "Survival Knife",
@@ -126,6 +150,7 @@
     "name": "Grappling Arm",
     "type": "consumable",
     "img": "images/items/Grappling_Arm.png",
+    "overlay_background": "#000",
     "codes": "grapple",
     "max_quantity": 2,
     "initial_quantity": 0
@@ -191,9 +216,19 @@
     "codes": "smd3"
   },
   {
+    "name": "Alien Containment",
+    "type": "consumable",
+    "img": "images/items/Alien_Containment.png",
+    "overlay_background": "#000",
+    "max_quantity": 2,
+    "codes": "containment"
+  },
+  {
     "name": "Multipurpose Room",
-    "type": "toggle",
+    "type": "consumable",
     "img": "images/items/Multipurpose_Room.png",
+    "overlay_background": "#000",
+    "max_quantity": 2,
     "codes": "room"
   },
   {
@@ -231,6 +266,7 @@
     "type": "consumable",
     "max_quantity": 2,
     "img": "images/items/Moon_Pool.png",
+    "overlay_background": "#000",
     "codes": "pool"
   },
   {
@@ -238,7 +274,16 @@
     "type": "consumable",
     "max_quantity": 2,
     "img": "images/items/Ion_Power_Cell.png",
+    "overlay_background": "#000",
     "codes": "ionpower"
+  },
+  {
+    "name": "Cuddlefish",
+    "type": "consumable",
+    "max_quantity": 5,
+    "img": "images/items/Cuddlefish.png",
+    "overlay_background": "#000",
+    "codes": "Cuddlefish"
   },
   {
     "name": "Dummy",

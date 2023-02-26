@@ -1,0 +1,1133 @@
+[
+    {
+        "name": "Creatures",
+        "chest_unopened_img": "images/items/Scanner.png",
+		"overlay_background": "#000000",
+        "chest_opened_img": "images/items/Greyed_Scanner.png",
+        "color": "#FFFFFF",
+        "children": 
+        [
+            {
+                "name": "Amoeboid",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 50
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Amoeboid",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1200"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Floater",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 100
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Ancient Floater",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bladderfish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 170
+                    }
+                ],
+                "sections": 
+                [       
+                    {
+                        "name": "Bladderfish",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Boomerang",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 235
+                    }
+                ],
+                "sections": 
+                [       
+                    {
+                        "name": "Boomerang",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Crimson Ray",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 290
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crimson Ray",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eyeye",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 370
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Eyeye",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Floater",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 440
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Floater",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }                    
+                ]
+            },
+            {
+                "name": "Garryfish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 510
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Garryfish",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gasopod",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 585
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Gasopod",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Ray",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 655
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Ghostray",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1200"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Holefish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 0,
+                        "y": 730
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Holefish",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],  
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hoopfish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 50
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Hoopfish",
+                        "access_rules":
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },  
+            {
+                "name": "Hoverfish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 110
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Hoverfish",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Jelly Ray",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 175
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Jelly Ray",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Magmarang",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 230
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Magmarang",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oculus",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 305
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Oculus",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Peeper",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 365
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peeper",
+                        "access_rules":
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rabbit Ray",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 432
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Rabbit Ray",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },  
+            {
+                "name": "Red Eyeye",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 500
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Red Eyeye",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1200"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Reefback",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 580
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Reefback",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Reginald",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 660
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Reginald",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rockgrub",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 240,
+                        "y": 737
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Rockgrub",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sea Emperor",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 50
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sea Emperor",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1800"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sea Emperor Baby",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 110
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sea Emperor Baby",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1800"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sea Treader",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 175
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sea Treader",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Shuttlebug",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 238
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Shuttlebug",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]   
+            },
+            {   
+                "name": "Skyray",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 305
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Skyray",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spadefish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 370
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Spadefish",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spinefish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 480,
+                        "y": 440
+                    }
+                ],  
+                "sections": 
+                [
+                    {
+                        "name": "Spinefish",
+                        "access_rules": 
+                        [
+                            "scanner,$canget750"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cuddlefish",
+                "map_locations": 
+                [
+                    {
+                        "map": "PassiveCreatures",
+                        "x": 710,
+                        "y": 600
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Cuddlefish",
+                        "access_rules": 
+                        [
+                            "scanner, $canget400, room, containment"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ampeel",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 50
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Ampeel",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Biter",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 120
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Biter",
+                        "access_rules": 
+                        [
+                            "scanner, rebreather"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bleeder",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 190
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Bleeder",
+                        "access_rules": 
+                        [
+                            "scanner, rebreather, stasis:2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Blighter",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 265
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Blighter",
+                        "access_rules": 
+                        [
+                            "scanner, $canget750"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Blood Crawler",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 340
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Blood Crawler",
+                        "access_rules": 
+                        [
+                            "scanner, $canget750"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Boneshark",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 410
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Boneshark",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave Crawler",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 490
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Cave Crawler",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Crabsnake",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 580
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crabsnake",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Crabsquid",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 670
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crabsquid",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Crashfish",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 0,
+                        "y": 750
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crashfish",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Juvenile Ghost Leviathan",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 50
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Juvenile Ghost Leviathan",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lava Larva",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 120
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lava Larva",
+                        "access_rules": 
+                        [
+                            "scanner, $canget1500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lava Lizard",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 185
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Lava Lizard",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget1500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mesmer",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 260
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Mesmer",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget400"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Reaper Leviathan ",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 340
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Reaper Leviathan ",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Prowler",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 410
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "River Prowler",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget1200"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sand Shark",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 490
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sand Shark",
+                        "access_rules": 
+                        [
+                            "scanner, rebreather"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sea Dragon Leviathan",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 580
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Sea Dragon Leviathan",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget1500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },{
+                "name": "Stalker",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 645
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Stalker",
+                        "access_rules": 
+                        [
+                            "scanner"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Warper",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 250,
+                        "y": 750
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Warper",
+                        "access_rules": 
+                        [
+                            "scanner,stasis:2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Adult Ghost Leviathan",
+                "map_locations": 
+                [
+                    {
+                        "map": "HostileCreatures",
+                        "x": 675,
+                        "y": 328
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Adult Ghost Leviathan",
+                        "access_rules": 
+                        [
+                            "scanner, stasis:2, $canget500"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]   

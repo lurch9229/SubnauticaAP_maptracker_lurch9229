@@ -44,18 +44,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "NW of Seabase PDA",
-                        "access_rules":
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Databox",
                         "access_rules":
                         [
@@ -70,7 +58,7 @@
                 ]
             },
             {
-                "name": "Jellyshroom Platform \n (x: -540.5, y: -250.8, z: -83.4)",
+                "name": "Jellyshroom Platform \n (x: -540, y: -250, z: -83)",
                 "map_locations": 
                 [
                     {
@@ -185,7 +173,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Alien terminal Yellow",
+                        "name": "Alien Terminal Yellow",
                         "access_rules": 
                         [
                             "vehiclebay:3, prawn:4, moonpool:2, console, pd1",

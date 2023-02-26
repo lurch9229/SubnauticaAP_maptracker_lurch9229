@@ -1,4 +1,5 @@
 ITEM_MAPPING = {
+    --Items
     [35000] = {}, -- compass
     [35001] = {}, -- lightweight high capacity tank
     [35002] = {"console", "toggle"}, -- vehicle upgrade console

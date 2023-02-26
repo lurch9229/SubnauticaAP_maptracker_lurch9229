@@ -429,7 +429,7 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3, radsuit"
+                            "rebreather, radsuit"
                         ],
                         "item_count": 1
                     },
@@ -494,7 +494,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hangar PDA",
+                        "name": "Beam PDA",
                         "access_rules":
                         [
                             ""
@@ -512,7 +512,7 @@
                 ]
             },  
             {
-                "name": "Grassy Plateaus Southwest Wreck \n (x: -418, y: -94 z: -261) ",
+                "name": "Grassy Plateaus South West Wreck \n (x: -418, y: -94 z: -261)",
                 "map_locations": 
                 [
                     {
@@ -924,7 +924,7 @@
                             "vehiclebay:3, prawn:4",
                             "vehiclebay:3, cyclops:9"
                         ],
-                        "item_count": 2
+                        "item_count": 1
                     },
                     {
                         "name": "PDA",
