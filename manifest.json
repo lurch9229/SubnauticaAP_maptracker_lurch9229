@@ -2,8 +2,8 @@
 	"name": "Subnautica Randomizer for Archipelago",
 	"game_name": "Subnautica",
 	"package_version": "1.4.0",
-	"package_uid": "SubnauticaAP_maptracker_lurch9229",
-	"author": "Lurch9229",
+	"package_uid": "Subnautica maptracker",
+	"author": "Lurch9229, Yeast",
 	"platform": "PC",
 	"variants": {
 		"map_tracker": {
