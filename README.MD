@@ -1,5 +1,5 @@
-# Subnautica AP Tracker
-Poptracker Package for Subnautica AP.
+# Subnautica Map Tracker for Archipelago
+Poptracker Package for Subnautica Randomizer, intended for use with Archipelago.
 Get poptracker here: https://github.com/black-sliver/PopTracker/releases
 
 Unzip to folder named the same as this repository in the Packs folder in your Poptracker installation
