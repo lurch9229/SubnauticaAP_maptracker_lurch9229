@@ -102,7 +102,9 @@ function onItem(index, item_id, item_name)
                 obj.Active = true
             end
         elseif v[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + 1
+            if obj.AcquiredCount < obj.MaxCount
+                obj.AcquiredCount = obj.AcquiredCount + 1
+            end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
