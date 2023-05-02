@@ -27,7 +27,7 @@
     "type": "itemgrid",
     "h_alignment": "right",
     "item_margin": "1,2",
-    "item_size": "50,50",
+    "item_size": "55,55",
     "rows": [
       ["Amoeboid badge", "Ancient Floater badge", "Bladderfish badge", "Boomerang badge", "Crimson Ray badge"], 
       ["Eyeye badge", "Floater badge", "Garryfish badge", "Gasopod badge", "Ghostray badge"],
