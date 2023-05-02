@@ -1,6 +1,6 @@
 [
     {
-        "name": "Cave Network",
+        "name": "Cave Networks",
         "chest_unopened_img": "images/items/databox_close.png",
 		"overlay_background": "#000000",
         "chest_opened_img": "images/items/databox_open.png",
@@ -8,11 +8,11 @@
         "children": 
         [
             {
-                "name": "Jellyshroom Seabase \n (x: 114, y: -258, z: -372)",
+                "name": "Jellyshroom Degasi Seabase\n275m below",
                 "map_locations": 
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 380,
                         "y": 700
                     }
@@ -20,49 +20,69 @@
                 "sections": 
                 [
                     {
-                        "name": "Inside Seabase PDAs",
+                        "name": "Bedroom Databox",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Detatched PDA",
-                        "access_rules":
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|110.6|-264.9|-369.0], $canAccess|110.6|-264.9|-369.0|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Databox",
+                        "name": "Detached PDA",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|80.6|-268.6|-358.3], $canAccess|80.6|-268.6|-358.3|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Office PDA",
+                        "access_rules":
+                        [
+                            "[$canAccess|78.2|-265.0|-373.4], $canAccess|78.2|-265.0|-373.4|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Locker PDA",
+                        "access_rules":
+                        [
+                            "[$canAccess|85.1|-264.1|-372.8], $canAccess|85.1|-264.1|-372.8|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bedroom PDA",
+                        "access_rules":
+                        [
+                            "[$canAccess|112.3|-264.9|-369.3], $canAccess|112.3|-264.9|-369.3|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Observatory PDA",
+                        "access_rules":
+                        [
+                            "[$canAccess|95.5|-258.9|-366.5], $canAccess|95.5|-258.9|-366.5|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside PDA",
+                        "access_rules":
+                        [
+                            "[$canAccess|83.2|-276.4|-345.5], $canAccess|83.2|-276.4|-345.5|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Jellyshroom Platform \n (x: -540, y: -250, z: -83)",
+                "name": "Jellyshroom Cave\n250m below",
                 "map_locations": 
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 183,
                         "y": 620
                     }
@@ -73,22 +93,18 @@
                         "name": "PDA",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-540.5|-250.8|-83.4], $canAccess|-540.5|-250.8|-83.4|5"
                         ],
                         "item_count": 1
                     }
                 ]
             }, 
             {
-                "name": "Lost River Laboratory \n (x: -222, y: -791, z: 320)",
+                "name": "Disease Research Facility\n815m below",
                 "map_locations": 
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 218,
                         "y": 155
                     }
@@ -96,43 +112,37 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal Entrance \n (Requires Purple Tablet)",
+                        "name": "Upper Alien Data Terminal\n(Requires Purple Tablet)",
                         "access_rules": 
                         [
-                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-280.2|-804.3|305.1], $canAccess|-280.2|-804.3|305.1|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Center",
+                        "name": "Center Alien Data Terminal",
                         "access_rules": 
                         [
-                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-267.9|-806.6|250.0], $canAccess|-267.9|-806.6|250.0|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Back",
+                        "name": "Lower Alien Data Terminal",
                         "access_rules": 
                         [
-                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-286.2|-815.6|297.8], $canAccess|-286.2|-815.6|297.8|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lost River Cache (requires purple tablet) \n (x:-1113, y:-684, z:-655)",
+                "name": "Lost River Laboratory Cache (requires orange tablet)\n690m below",
                 "map_locations": 
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 88,
                         "y": 270
                     }
@@ -140,23 +150,21 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal",
+                        "name": "Alien Data Terminal",
                         "access_rules":
                         [
-                            "vehiclebay:3, seamoth:3, moonpool:2, console, smd1, smd2, smd3",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1112.3|-687.3|-695.5], $canAccess|-1112.3|-687.3|-695.5|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Alien Thermal Plant \n (x: -32, y: -1200, z: 66)",
+                "name": "Alien Thermal Plant\n1230m below",
                 "map_locations": 
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 250,
                         "y": 400
                     }
@@ -164,40 +172,37 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal Entrance",
+                        "name": "Entrance Alien Data Terminal",
                         "access_rules": 
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                            "[$canAccess|-71.3|-1227.2|104.8], $canAccess|-71.3|-1227.2|104.8|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Yellow",
+                        "name": "Lower Alien Data Terminal",
                         "access_rules": 
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                            "[$canAccess|-38.7|-1226.6|111.8], $canAccess|-38.7|-1226.6|111.8|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Back",
+                        "name": "Upper Alien Data Terminal",
                         "access_rules": 
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, pd1",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2"
+                            "[$canAccess|-30.4|-1220.3|111.8], $canAccess|-30.4|-1220.3|111.8|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Alien Containment Facility (Requires Blue Tablet) \n (x: 217, y: -1451, z:-259)",
+                "name": "Primary Containment Facility (Requires Blue Tablet)\n1445m below",
                 "map_locations":
                 [
                     {
-                        "map": "CaveNetwork",
+                        "map": "CaveNetworks",
                         "x": 290,
                         "y": 530
                     }
@@ -205,29 +210,26 @@
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal Entrance",
+                        "name": "Central Room - Alien Data Terminal",
                         "access_rules":
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                            "[$canAccess|245.8|-1430.6|-311.5], $canAccess|245.8|-1430.6|-311.5|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Egg Room",
+                        "name": "Egg Laboratory - Alien Data Terminal",
                         "access_rules":
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                            "[$canAccess|165.5|-1442.4|-385.8], $canAccess|165.5|-1442.4|-385.8|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alien Terminal Ventilation Room",
+                        "name": "Pipe Room - Alien Data Terminal",
                         "access_rules":
                         [
-                            "vehiclebay:3, prawn:4, moonpool:2, console, modify, pd1, pd2",
-                            "vehiclebay:3, cyclops:9, modify:3, cd1, cd2, cd3, seaglide:2, hightank, rebreather"
+                            "[$canAccess|348.7|-1443.5|-291.9], $canAccess|348.7|-1443.5|-291.9|5"
                         ],
                         "item_count": 1
                     }

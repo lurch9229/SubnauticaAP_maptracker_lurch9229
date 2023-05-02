@@ -11,8 +11,8 @@
 		  "item_margin": "5, 5, 5, 5",
 		  "item_size": 50,
 		  "rows": [
-				["knife", "scanner", "builder", "repair", "cutter","seaglide", "cannon", "pool", "console", "ionpower", "rebreather", "radsuit" ,"modify" ,"hightank", "fins"],
-				["vehiclebay", "seamoth" ,"smd1" ,"smd2" ,"smd3", "cyclops", "shield", "cd1", "cd2", "cd3", "prawn", "grapple", "jumpjet", "pd1", "pd2", "base", "gantry", "boosters", "fuel", "cockpit"]
+			        	["knife", "scanner", "builder", "repair", "rebreather", "seaglide", "cutter", "propcannon", "repcannon", "stasis", "radsuit", "armor", "ultrafins", "lighttank", "ultratank", "modify", "console", "moonpool", "room", "containment"],
+					["vehiclebay", "seamoth", "prawn", "grapple", "prawnprop", "cyclopsbridge", "cyclopsengine", "cyclopshull", "cd1", "shield", "base", "gantry", "boosters", "reserves", "cockpit", "ionbattery", "ionpower", "swimrule", "goal", "finish"]
       ]
       }
     ]

@@ -1,10 +1,95 @@
 function has(item, amount)
-  local count = Tracker:ProviderCountForCode(item)
-  amount = tonumber(amount)
-  if not amount then
-    return count > 0
+  local obj = Tracker:FindObjectForCode(item)
+  if obj.Type == "toggle" then
+    if obj.Active then
+      return true
+    end
+  elseif obj.Type == "consumable" then
+    if obj.AcquiredCount == amount then
+      return true
+    end
+  elseif obj.Type == "progressive" then
+    if obj.CurrentStage == amount then
+      return true
+    end
+  end
+end
+
+function canFinish()
+  local goal = Tracker:FindObjectForCode("goal").CurrentStage
+  if goal == 0 then
+    if useSeaglide() and has("radsuit") and has("propcannon", 2) then
+      Tracker:FindObjectForCode("finish").Active = true
+    else
+      Tracker:FindObjectForCode("finish").Active = false
+    end
+  elseif goal == 1 then
+    if maxDepth() > 900 then
+      Tracker:FindObjectForCode("finish").Active = true
+    else
+      Tracker:FindObjectForCode("finish").Active = false
+    end
+  elseif goal == 2 then
+    if maxDepth() > 1444 then
+      Tracker:FindObjectForCode("finish").Active = true
+    else
+      Tracker:FindObjectForCode("finish").Active = false
+    end
+  elseif goal == 3 then
+    if has("base") and has("gantry") and has("boosters") and has("reserves") and has("cockpit") and has("vehiclebay", 3) and useCyclops() and has("shield") and has("ionbattery") and has("ionpower") and maxDepth() > 1444 then
+      Tracker:FindObjectForCode("finish").Active = true
+    else
+      Tracker:FindObjectForCode("finish").Active = false
+    end
   else
-    return count == amount
+    print("goal not recognized")
+  end
+end
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------VEHICLE ACCESS-------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+
+function useSeaglide()
+  if has("seaglide", 2) then
+    return true
+  end
+end
+
+function useVehicles()
+  if has("vehiclebay", 3) then
+    return true
+  end
+end
+
+function useSeamoth()
+  if has("seamoth", 3) and useVehicles() then
+    return true
+  end
+end
+
+function useCyclops()
+  if (has("cyclopsbridge", 3) and has("cyclopsengine", 3)) and (has("cyclopshull", 3) and useVehicles()) then
+    return true
+  end
+end
+
+function usePrawn()
+  if has("prawn", 4) and useVehicles() then
+    return true
+  end
+end
+
+function canUpgrade()
+  if has("moonpool", 2) and has("console") then
+    return true
+  end
+end
+
+function canModify()
+  if has("modify", 3) then
+    return true
   end
 end
 
@@ -13,330 +98,117 @@ end
 --------------------------------------------------DEPTH LOGIC-------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
- 
-function canget400()
-  if (has ("seaglide:2") and has ("rebreather"))
-  or (has ("hightank") and has ("fins") and has ("rebreather") and has ("modify:3"))
-  or (has ("$useSeamoth") and has ("rebreather"))
-  or has ("$usePrawn")
-  or has ("$useCyclops")
-  then
-    return 1
+
+function swimDepth(swimrule)
+  local rule = math.tointeger(swimrule)
+  if rule ~= 5 then
+    rule = Tracker:FindObjectForCode("swimrule").CurrentStage
+  end 
+  local depth = 0
+  if rule == 0 or rule == 3 then
+    depth = 200
+  elseif rule == 1 or rule == 4 then
+    depth = 400
+  elseif rule == 2 or rule == 5 then
+    depth = 600
+  end
+  if rule > 2 then
+    if useSeaglide() then
+      if has("ultratank") then
+        depth = depth + 350
+      else
+        depth = depth + 200
+      end
+    elseif has("ultrafins") then
+      if has("ultratank") then
+        depth = depth + 150
+      elseif has("lighttank") then
+        depth = depth + 75
+      else 
+        depth = depth + 50
+      end
+    else
+      if has("ultratank") then
+        depth = depth + 100
+      elseif has("lighttank") then
+        depth = depth + 25
+      end
+    end
+  end
+  return depth
+end
+
+function seamothDepth()
+  local depth = 0
+  if useSeamoth() then
+    if canUpgrade() and canModify() then
+      depth = 900
+    elseif canUpgrade() then
+      depth = 300
+    else
+      depth = 200
+    end
+  end
+  return depth
+end
+
+function cyclopsDepth()
+  local depth = 0
+  if useCyclops() then
+    if has("cd1") then
+      if canModify() then
+        depth = 1700
+      else
+        depth = 900
+      end
+    else
+      depth = 500
+    end
+  end
+  return depth
+end
+
+function prawnDepth()
+  local depth = 0
+  if usePrawn() then
+    if canUpgrade() and canModify() then
+      depth = 1700
+    elseif canUpgrade() then
+      depth = 1300
+    else
+      depth = 900
+    end
+  end
+  return depth
+end
+
+function maxDepth(swimrule)
+  if useSeaglide() then
+    Tracker:FindObjectForCode("depth").AcquiredCount = swimDepth() + math.max(seamothDepth(), cyclopsDepth(), prawnDepth())
+    return swimDepth(swimrule) + math.max(seamothDepth(), cyclopsDepth(), prawnDepth()) 
   else
-    return 0
+    Tracker:FindObjectForCode("depth").AcquiredCount = swimDepth()
+    return swimDepth(swimrule) 
   end
 end
 
-function canget500()
-  if (has ("$useSeaglide") and has ("hightank") and has ("rebreather") and has ("$canModify"))
-  or (has ("$useSeamoth") and has ("rebreather") and has ("$useSMD1"))
-  or has ("$usePrawn")
-  or has ("$useCyclops")
-  then
-    return 1
-  else
-    return 0
+function canAccess(x, y, z, swimrule)
+  local swimrule = swimrule
+  maxDepth()
+  canFinish()
+  if has("radsuit") ~= true then
+    if math.sqrt((x - 1038)^2 + y^2 + (z + 163.1)^2) < 950 then
+      return false
+    end
   end
-end
-
-function canget750()
-  if (has ("$useSeaglide") and has ("fins") and has ("hightank") and has ("rebreather") and has ("$canModify") and has ("$canget500"))
-  or (has ("$useSeamoth") and has ("$canModifyUpgrade") and has ("$useSMD2") and has ("$canget500"))
-  or has ("$usePrawn")
-  or (has ("$useCyclops") and has ("rebreather") and has ("$canget500"))
-  or (has ("$useCyclops") and has ("$useCD1") and has ("$canget500"))
-  then
-    return 1
-  else
-    return 0
+  if useSeaglide() ~= true then
+    if (x^2 + z^2)^0.5 < 800 and -y < 200 then
+      return true
+    else
+      return false
+    end
   end
-end
-
-function canget900()
-  if (has ("$useSeamoth") and has ("$useSMD3") and has ("$canget750"))
-  or has ("$usePrawn")
-  or (has ("$useCyclops") and has ("$useCD1") and has ("$canget750"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canget1200()
-  if (has ("$useSeamoth") and has ("$useSMD3") and has ("rebreather") and has ("hightank") and has ("$useSeaglide") and has ("$canget750"))
-  or (has ("$usePrawn") and has ("$usePD1") and has ("$canget750"))
-  or (has ("$usePrawn") and has ("rebreather") and has ("hightank") and has ("$useSeaglide") and has ("$canModify") and has ("$canget750"))
-  or (has ("$useCyclops") and has ("$useCD2") and has ("$canget750"))
-  or (has ("$useCyclops") and has ("$useCD1") and has ("rebreather") and has ("hightank") and has ("$useSeaglide") and has ("$canModify") and has ("$canget750"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canget1500()
-  if (has ("$usePrawn") and has ("$usePD2") and has ("$canget1200"))
-  or (has ("$usePrawn") and has ("$usePD1") and has ("rebreather") and has ("hightank") and has ("$useSeaglide") and has ("$canget1200"))
-  or (has ("$useCyclops") and has ("$useCD3") and has ("$canget1200"))
-  or (has ("$useCyclops") and has ("$useCD2") and has ("rebreather") and has ("hightank") and has ("$useSeaglide") and has ("$canget1200"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canget1800()
-  if (has ("$usePrawn") and has ("$usePD2") and has ("$canget1500"))
-  or (has ("$useCyclops") and has ("$useCD3") and has ("$canget1500"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------RESOURCE ACCESS------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
-
-function kyaniteACCESS()
-  if (has ("$canget1200") and has ("$usePrawn") and has ("$usePD1"))
-  or (has ("$useCyclops") and has ("$useCD2"))
-  or (has ("$canget900") and has ("builder"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function nickelACCESS()
-  if has ("$canget900")
-  or (has ("$canget750") and has ("builder"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function sulfurACCESS()
-  if has ("$canget900")
-  or (has ("$canget750") and has ("builder"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function gelACCESS()
-  if has ("$canget400")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function rubyACCESS()
-  if has ("$canget400")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function kelpACCESS()
-  if has ("$canget400")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function magneACCESS()
-  if (has ("rebreather") and has ("$useSeaglide"))
-  or has ("$canget400")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function getAero()
-  if (has ("$rubyACCESS") and has ("$gelACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function shroomACCESS()
-  if has ("$canget400")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------VEHICLE ACCESS-------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
-
-function useSeaglide()
-  if has ("seaglide:2")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useVehicles()
-  if has ("vehiclebay:3")
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useSeamoth()
-  if (has ("seaglide:3") and has ("$useVehicles"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function usePrawn()
-  if (has ("prawn:4") and has ("$useVehicles"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useCyclops()
-  if (has ("cyclops:9") and has ("$useVehicles"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canUpgrade()
-  if (has ("pool:2") and has ("console") and has ("builder"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canModify()
-  if (has ("modify:3") and has ("builder"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function canModifyUpgrade()
-  if (has ("$canUpgrade") and has ("$canModify"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useSMD1()
-  if (has ("$canUpgrade") and has ("smd1"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useSMD2()
-  if (has ("$canModifyUpgrade") and has ("$useSMD1") and has ("smd2") and has ("$magneACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useSMD3()
-  if (has ("$useSMD2") and has ("smd3") and has ("$rubyACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function usePD1()
-  if (has ("$canUpgrade") and has ("pd1") and has ("$rubyACCESS") and has ("$nickelACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function usePD2()
-  if (has ("$usePD1") and has ("$canModifyUpgrade") and has ("pd2") and has ("$kyaniteACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useCD1()
-  if (has ("$useCyclops") and has ("cd1") and has ("$rubyACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useCD2()
-  if (has ("$useCD1") and has ("$canModifyUpgrade") and has ("$nickelACCESS"))
-  then
-    return 1
-  else
-    return 0
-  end
-end
-
-function useCD3()
-  if (has ("$useCD2") and has ("cd3") and has ("$kyaniteACCESS"))
-  then
-    return 1
-  else
-    return 0
+  if maxDepth(swimrule) > -y then
+      return true
   end
 end

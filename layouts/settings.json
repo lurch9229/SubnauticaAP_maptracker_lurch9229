@@ -1,0 +1,45 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "background": "#1288b9",
+        "content": [
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Settings",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "swimrule",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    },
+                    {
+                        "type": "item",
+                        "item": "goal",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    },
+                    {
+                        "type": "item",
+                        "item": "pooltype",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    },
+                    {
+                        "type": "item",
+                        "item": "samples",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    },
+                    {
+                        "type": "item",
+                        "item": "deathlink",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    }
+                ]
+            }
+        ]
+    }
+}
