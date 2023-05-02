@@ -1,37 +1,47 @@
 ﻿{
-  "item_grid": {
+  "equipment_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
-    "item_size": "50,50",
+    "item_size": "64,64",
     "rows": [
-      [ "knife", "scanner", "builder", "repair", "cutter"],
-      [ "seaglide", "cannon", "pool", "console", "ionpower"],
-      [ "rebreather", "radsuit", "modify", "hightank", "fins"]
+      ["knife", "scanner", "builder", "repair", "rebreather"],
+      ["seaglide", "cutter", "propcannon", "repcannon", "stasis"],
+      ["radsuit", "armor", "ultrafins", "lighttank", "ultratank"],
+      ["modify", "console", "moonpool", "room", "containment"]
     ]
   },
   "vehicle_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
-    "item_size": "50,50",
+    "item_size": "64,64",
     "rows": [
-	    [ "vehiclebay", "seamoth", "smd1", "smd2", "smd3"],
-      [ "cyclops", "shield", "cd1", "cd2", "cd3"],
-      [ "prawn", "grapple", "jumpjet", "pd1", "pd2"],
-      [ "base", "gantry", "boosters", "fuel", "cockpit"]
+	    ["vehiclebay", "seamoth", "prawn", "grapple", "prawnprop"],
+      ["cyclopsbridge", "cyclopsengine", "cyclopshull", "cd1", "shield"],
+      ["base", "gantry", "boosters", "reserves", "cockpit"],
+      ["ionbattery", "ionpower", "depth", "goal", "finish"]
     ]
   },
-  "comforts_grid": {
+  "creature_grid": {
     "type": "itemgrid",
-    "h_alignment": "center",
+    "h_alignment": "right",
     "item_margin": "1,2",
     "item_size": "50,50",
     "rows": [
-      ["stasis", "grav", "room", "containment", "Cuddlefish"]
+      ["Amoeboid badge", "Ancient Floater badge", "Bladderfish badge", "Boomerang badge", "Crimson Ray badge"], 
+      ["Eyeye badge", "Floater badge", "Garryfish badge", "Gasopod badge", "Ghostray badge"],
+      ["Holefish badge", "Hoopfish badge", "Hoverfish badge", "Jellyray badge", "Lava Larva badge"], 
+      ["Magmarang badge", "Oculus badge", "Peeper badge", "Rabbit Ray badge", "Red Eyeye badge"],
+      ["Reefback leviathan badge", "Reginald badge", "Rockgrub badge", "Sea Emperor Juvenile badge", "Sea Treader Leviathan badge"], 
+      ["Shuttlebug badge", "Skyray badge", "Spadefish badge", "Spinefish badge", "Biter badge"],
+      ["Bleeder badge", "Blighter badge", "Blood Crawler badge", "Cave Crawler badge", "Ghost Leviathan Juvenile badge"], 
+      ["Ghost Leviathan badge", "Reaper Leviathan badge", "River Prowler badge", "Sea Dragon Leviathan badge", "Warper badge"],
+      ["Ampeel badge", "Boneshark badge", "Crabsnake badge", "Crabsquid badge", "Crashfish badge"], 
+      ["Lava Lizard badge", "Mesmer badge", "Sand Shark badge", "Stalker badge", "Cuddlefish badge"]
     ]
   },
-
+  
 "tracker_horizontal": 
   {
     "type": "container",
@@ -59,7 +69,7 @@
                 [
                   {
                     "type": "layout",
-                    "key": "item_grid"
+                    "key": "equipment_grid"
                   }
                 ]
               }
@@ -80,24 +90,7 @@
                   }
                 ]
               }
-            },
-            {
-              "type": "group",
-              "header": "Creature Comforts",
-              "content":
-              {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content":
-                [
-                  {
-                    "type": "layout",
-                    "key": "comforts_grid"
-                  }
-                ]
-              }
-            }
+            }  
           ]
         },
         {
@@ -124,30 +117,34 @@
                   "content": 
                   {
                     "type": "map",
-                    "maps": ["CaveNetwork"]
+                    "maps": ["CaveNetworks"]
                   }
-                },
-                { 
-                  "title": "Passive Creatures",
-                  "content":
-                  [ 
-                    {
-                      "type": "map",
-                      "maps": ["PassiveCreatures"]
-                    }
-                  ]
-                },
-                {
-                  "title": "Hostile Creatures",
-                  "content":
-                  [
-                    {
-                      "type": "map",
-                      "maps": ["HostileCreatures"]
-                    }
-                  ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "dock": "right",
+          "orientation": "vertical",
+          "content": [
+            {
+              "type": "group",
+              "header": "Creature Scans",
+              "content": 
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": 
+                [
+                  {
+                    "type": "layout",
+                    "key": "creature_grid"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -187,7 +184,7 @@
                     [
                       {
                         "type": "layout",
-                        "key": "item_grid"
+                        "key": "equipment_grid"
                       }
                     ]
                   }
@@ -205,23 +202,6 @@
                       {
                         "type": "layout",
                         "key": "vehicle_grid"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Creature Comforts",
-                  "content":
-                  {
-                    "type": "array",
-                    "orientation": "horizontal",
-                    "margin": "0,0",
-                    "content":
-                    [
-                      {
-                        "type": "layout",
-                        "key": "comforts_grid"
                       }
                     ]
                   }
@@ -254,23 +234,7 @@
                   "content": 
                   {
                     "type": "map",
-                    "maps": ["CaveNetwork"]
-                  }
-                },
-                { 
-                  "title": "Passive Creatures",
-                  "content": 
-                  {
-                    "type": "map",
-                    "maps": ["PassiveCreatures"]
-                  }
-                },
-                {
-                  "title": "Hostile Creatures",
-                  "content":
-                  { 
-                    "type": "map",
-                    "maps": ["HostileCreatures"]
+                    "maps": ["CaveNetworks"]
                   }
                 }
               ]

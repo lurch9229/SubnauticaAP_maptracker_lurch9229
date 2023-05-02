@@ -1,293 +1,1049 @@
 [
   {
-    "name": "Cyclops",
-    "type": "consumable",
-    "loop": "false",
-    "img": "images/items/Cyclops.png",
-    "overlay_background": "#000",
-    "codes": "cyclops",
-    "max_quantity": 9,
-    "initial_quantity": 0
-  },
+    "name": "Survival Knife",
+    "codes": "knife",
+    "type": "static",
+    "img": "images/items/Survival_Knife.png"
+  }, 
   {
-    "name": "Grav Trap",
-    "type": "consumable",
-    "img": "images/items/Grav_Trap.png",
-    "max_quantity": 2,
-    "overlay_background": "#000",
-    "codes": "grav"
+    "name": "Scanner",
+    "codes": "scanner",
+    "type": "static",
+    "img": "images/items/Scanner.png"
   }, 
   {
     "name": "Habitat Builder",
-    "type": "toggle",
-    "img": "images/items/Habitat_Builder.png",
     "codes": "builder",
-    "initial_state": true
-  },
-  {
-    "name": "Laser Cutter",
-    "type": "consumable",
-    "img": "images/items/Laser_Cutter.png",
-    "overlay_background": "#000",
-    "codes": "cutter",
-    "max_quantity": 3,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Mobile Vehicle Bay",
-    "type": "consumable",
-    "img": "images/items/Mobile_Vehicle_Bay.png",
-    "overlay_background": "#000",
-    "codes": "vehiclebay",
-    "max_quantity": 3,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Modification Station",
-    "type": "consumable",
-    "img": "images/items/Modification_Station.png",
-    "overlay_background": "#000",
-    "codes": "modify",
-    "max_quantity": 3,
-    "initial_quantity": 0
+    "type": "static",
+    "img": "images/items/Habitat_Builder.png"
   }, 
   {
-    "name": "PRAWN Suit",
-    "type": "consumable",
-    "img": "images/items/Prawn_Suit.png",
-    "overlay_background": "#000",
-    "codes": "prawn",
-    "max_quantity": 4,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Propulsion Cannon",
-    "type": "consumable",
-    "img": "images/items/Propulsion_Cannon.png",
-    "overlay_background": "#000",
-    "codes": "cannon",
-    "max_quantity": 2,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Radiation Suit",
-    "type": "toggle",
-    "img": "images/items/Radiation_Helmet.png",
-    "codes": "radsuit"
-  },
+    "name": "Repair Tool",
+    "codes": "repair",
+    "type": "static",
+    "img": "images/items/Repair_Tool.png"
+  }, 
   {
     "name": "Rebreather",
-    "type": "toggle",
-    "img": "images/items/Rebreather.png",
-    "codes": "rebreather"
-  },
-  {
-    "name": "Repair Tool",
-    "type": "toggle",
-    "img": "images/items/Repair_Tool.png",
-    "codes": "repair",
-    "initial_state": true
-  },
-  {
-    "name": "Scanner",
-    "type": "toggle",
-    "img": "images/items/Scanner.png",
-    "codes": "scanner",
-    "initial_state": true
-  },
+    "codes": "rebreather",
+    "type": "static",
+    "img": "images/items/Rebreather.png"
+  }, 
   {
     "name": "Seaglide",
+    "codes": "seaglide",
     "type": "consumable",
     "img": "images/items/Seaglide.png",
-    "overlay_background": "#000",
-    "codes": "seaglide,glide",
-    "max_quantity": 2,
-    "initial_quantity": 0
-  },
+    "max_quantity": 2
+  }, 
   {
-    "name": "Seamoth (200m)",
+    "name": "Laser Cutter",
+    "codes": "cutter",
     "type": "consumable",
-    "img": "images/items/Seamoth.png",
-    "overlay_background": "#000",
-    "codes": "seamoth",
-    "max_quantity": 3,
-    "initial_quantity": 0
-  },
+    "img": "images/items/Laser_Cutter.png",
+    "max_quantity": 3
+  }, 
+  {
+    "name": "Propulsion Cannon",
+    "codes": "propcannon",
+    "type": "consumable",
+    "img": "images/items/Propulsion_Cannon.png",
+    "max_quantity": 2
+  }, 
+  {
+    "name": "Repulsion Cannon",
+    "codes": "repcannon",
+    "type": "toggle",
+    "img": "images/items/Repulsion_Cannon.png"
+  }, 
   {
     "name": "Stasis Rifle",
+    "codes": "stasis",    
     "type": "consumable",
-    "max_quantity": 2,
     "img": "images/items/Stasis_Rifle.png",
-    "codes": "stasis",
-    "overlay_background": "#000"
-  },
+    "max_quantity": 2
+  }, 
   {
-    "name": "Survival Knife",
+    "name": "Radiation Suit",
+    "codes": "radsuit",
     "type": "toggle",
-    "img": "images/items/Survival_Knife.png",
-    "codes": "knife",
-    "initial_state": true
-  },
+    "img": "images/items/Radiation_Helmet.png"
+  }, 
+  {
+    "name": "Reinforced Dive Suit",
+    "codes": "armor",
+    "type": "toggle",
+    "img": "images/items/Reinforced_Dive_Suit.png"
+  }, 
   {
     "name": "Ultra Glide Fins",
+    "codes": "ultrafins",
     "type": "toggle",
-    "img": "images/items/Ultra_Glide_Fins.png",
-    "codes": "fins"
-  },
+    "img": "images/items/Ultra_Glide_Fins.png"
+  }, 
   {
-    "name": "Ultra High Capacity Tank (225s)",
+    "name": "Lightweight High Capacity Tank",
+    "codes": "lighttank",
     "type": "toggle",
-    "img": "images/items/Ultra_High_Capacity_Tank.png",
-    "codes": "hightank"
-  },
+    "img": "images/items/Plasteel_Tank.png"
+  }, 
+  {
+    "name": "Ultra High Capacity Tank",
+    "codes": "ultratank",
+    "type": "toggle",
+    "img": "images/items/Ultra_High_Capacity_Tank.png"
+  }, 
+  {
+    "name": "Modification Station",
+    "codes": "modify",
+    "type": "consumable",
+    "img": "images/items/Modification_Station.png",
+    "max_quantity": 3
+  }, 
   {
     "name": "Vehicle Upgrade Console",
+    "codes": "console",
     "type": "toggle",
-    "img": "images/items/Vehicle_Upgrade_Console.png",
-    "codes": "console"
-  },
+    "img": "images/items/Vehicle_Upgrade_Console.png"
+  }, 
   {
-    "name": "Grappling Arm",
+    "name": "Moonpool",
+    "codes": "moonpool",
     "type": "consumable",
-    "img": "images/items/Grappling_Arm.png",
-    "overlay_background": "#000",
-    "codes": "grapple",
-    "max_quantity": 2,
-    "initial_quantity": 0
+    "img": "images/items/Moonpool.png",
+    "max_quantity": 2
+  }, 
+  {
+    "name": "Multipurpose room",
+    "codes": "multipurpose",
+    "type": "toggle",
+    "img": ""
   },
   {
-    "name": "Cyclops Depth Module MK1",
+    "name": "Large Room",
+    "codes": "largeroom",
     "type": "toggle",
-    "img": "images/items/Depth_Module1.png",
-    "codes": "cd1"
+    "img": ""
   },
   {
-    "name": "Cyclops Depth Module MK2",
-    "type": "toggle",
-    "img": "images/items/Depth_Module2.png",
-    "codes": "cd2"
-  },
-  {
-    "name": "Cyclops Depth Module MK3 (1800m)",
-    "type": "toggle",
-    "img": "images/items/Depth_Module3.png",
-    "codes": "cd3"
-  },
-  {
-    "name": "Shield Generator",
-    "type": "toggle",
-    "img": "images/items/Shield_Generator.png",
-    "codes": "shield"
-  },
-  {
-    "name": "Jump Jet Upgrade",
-    "type": "toggle",
-    "img": "images/items/Jet_Jump_Upgrade.png",
-    "codes": "jumpjet"
-  },
-  {
-    "name": "PRAWN Depth Module MK1",
-    "type": "toggle",
-    "img": "images/items/Depth_Module2.png",
-    "codes": "pd1"
-  },
-  {
-    "name": "PRAWN Depth Module MK2 (1800m)",
-    "type": "toggle",
-    "img": "images/items/Depth_Module3.png",
-    "codes": "pd2"
-  },
-  {
-    "name": "Seamoth Depth Upgrade MK1 (300m)",
-    "type": "toggle",
-    "img": "images/items/Depth_Module1.png",
-    "codes": "smd1"
-  },
-  {
-    "name": "Seamoth Depth Upgrade MK2",
-    "type": "toggle",
-    "img": "images/items/Depth_Module2.png",
-    "codes": "smd2"
-  },
-  {
-    "name": "Seamoth Depth Upgrade MK3 (900m)",
-    "type": "toggle",
-    "img": "images/items/Depth_Module3.png",
-    "codes": "smd3"
-  },
+    "name": "Large / Multipurpose room",
+    "codes": "room",
+    "type": "composite_toggle",
+    "item_left": "multipurpose",
+    "item_right": "largeroom",
+    "images": [
+      {
+        "left": false, "right": false,
+        "img": "images/items/rooms.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true, "right": false,
+        "name": "Multipurpose room",
+        "codes": "multipurpose",
+        "inherit_codes": false,
+        "img": "images/items/Multipurpose_Room.png"
+      },
+      {
+        "left": false, "right": true,
+        "name": "Large Room",
+        "codes": "largeroom",
+        "inherit_codes": false,
+        "img": "images/items/Large_Room.png"
+      },
+      {
+        "left": true, "right": true,
+        "codes": "bothrooms",
+        "inherit_codes": true,
+        "img": "images/items/rooms.png"
+
+
+      }
+    ]
+  }, 
   {
     "name": "Alien Containment",
+    "codes": "containment",
+    "type": "toggle",
+    "img": "images/items/Alien_Containment.png"
+  }, 
+  {
+    "name": "Mobile Vehicle Bay",
+    "codes": "vehiclebay",
     "type": "consumable",
-    "img": "images/items/Alien_Containment.png",
-    "overlay_background": "#000",
-    "max_quantity": 2,
-    "codes": "containment"
-  },
+    "img": "images/items/Mobile_Vehicle_Bay.png",
+    "max_quantity": 3
+  }, 
   {
-    "name": "Multipurpose Room",
+    "name": "Seamoth",
+    "codes": "seamoth",
     "type": "consumable",
-    "img": "images/items/Multipurpose_Room.png",
-    "overlay_background": "#000",
-    "max_quantity": 2,
-    "codes": "room"
-  },
+    "img": "images/items/Seamoth.png",
+    "max_quantity": 3
+  }, 
   {
-    "name": "Rocket Platform",
-    "type": "toggle",
-    "img": "images/items/Rocket_Base.png",
-    "codes": "base"
-  },
-  {
-    "name": "Rocket Gantry",
-    "type": "toggle",
-    "img": "images/items/Rocket_Gantry.png",
-    "codes": "gantry"
-  },
-  {
-    "name": "Rocket Boosters",
-    "type": "toggle",
-    "img": "images/items/Rocket_Boosters.png",
-    "codes": "boosters"
-  },
-  {
-    "name": "Rocket Fuel Reserves",
-    "type": "toggle",
-    "img": "images/items/Rocket_Reserves.png",
-    "codes": "fuel"
-  },
-  {
-    "name": "Rocket Cockpit",
-    "type": "toggle",
-    "img": "images/items/Rocket_Cockpit.png",
-    "codes": "cockpit"
-  },
-  {
-    "name": "Moon Pool",
+    "name": "Prawn Suit",
+    "codes": "prawn",
     "type": "consumable",
-    "max_quantity": 2,
-    "img": "images/items/Moon_Pool.png",
-    "overlay_background": "#000",
-    "codes": "pool"
+    "img": "images/items/Prawn_Suit.png",
+    "max_quantity": 4
+  }, 
+  {
+    "name": "Prawn Suit Grappling Arm",
+    "codes": "grapple",
+    "type": "consumable",
+    "img": "images/items/Grappling_Arm.png",
+    "max_quantity": 2
+  }, 
+  {
+    "name": "Prawn Suit Propulsion Cannon",
+    "codes": "prawnprop",
+    "type": "consumable",
+    "img": "images/items/Propulsion_Cannon_for_Exosuit.png",
+    "max_quantity": 2
+  }, 
+  {
+    "name": "Cyclops Bridge Fragment",
+    "codes": "cyclopsbridge",
+    "type": "consumable",
+    "img": "images/items/Cyclops_Bridge_Fragment.png",
+    "max_quantity": 3
+  }, 
+  {
+    "name": "Cyclops Engine Fragment",
+    "codes": "cyclopsengine",
+    "type": "consumable",
+    "img": "images/items/Cyclops_Engine_Fragment.png",
+    "max_quantity": 3
+  }, 
+  {
+    "name": "Cyclops Hull Fragment",
+    "codes": "cyclopshull",
+    "type": "consumable",
+    "img": "images/items/Cyclops_Hull_Fragment.png",
+    "max_quantity": 3
+  }, 
+  {
+    "name": "Cyclops Depth Module MK1",
+    "codes": "cd1",
+    "type": "toggle",
+    "img": "images/items/Depth_Module1.png"
+  }, 
+  {
+    "name": "Cyclops Shield Generator",
+    "codes": "shield",
+    "type": "toggle",
+    "img": "images/items/Shield_Generator.png"
+  }, 
+  {
+    "name": "Neptune Platform",
+    "codes": "base",
+    "type": "toggle",
+    "img": "images/items/Neptune_Base.png"
   },
   {
-    "name": "Ion Power",
+    "name": "Neptune Gantry",
+    "codes": "gantry",
+    "type": "toggle",
+    "img": "images/items/Neptune_Gantry.png"
+  },
+  {
+    "name": "Neptune Boosters",
+    "codes": "boosters",
+    "type": "toggle",
+    "img": "images/items/Neptune_Boosters.png"
+  },
+  {
+    "name": "Neptune Fuel Reserves",
+    "codes": "reserves",
+    "type": "toggle",
+    "img": "images/items/Neptune_Reserves.png"
+  },
+  {
+    "name": "Neptune Cockpit",
+    "codes": "cockpit",
+    "type": "toggle",
+    "img": "images/items/Neptune_Cockpit.png"
+  },
+  
+  {
+    "name": "Ion Battery",
+    "codes": "ionbattery",
+    "type": "toggle",
+    "img": "images/items/Ion_Battery.png"
+  }, 
+  {
+    "name": "Ion Power Cell",
+    "codes": "ionpower",
+    "type": "toggle",
+    "img": "images/items/Ion_Power_Cell.png"
+  }, 
+  {
+    "name": "Goal",
+    "codes": "goal",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "codes": "drive",
+        "inherit_codes": false,
+        "img": "images/items/Drive.png"
+      },
+      {
+        "codes": "infected",
+        "inherit_codes": false,
+        "img": "images/items/Infection.png"
+      },
+      {
+        "codes": "free",
+        "inherit_codes": false,
+        "img": "images/items/Gun.png"
+      },
+      {
+        "codes": "launch",
+        "inherit_codes": false,
+        "img": "images/items/NeptuneEscapeRocket.png"
+      }
+    ] 
+  },
+  {
+    "name": "Finish",
+    "codes": "finish",
+    "type": "toggle",
+    "img": "images/items/Finish.png"
+  },
+  {
+    "name": "Swim Rule",
+    "codes": "swimrule",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "codes": "easy",
+        "inherit_codes": false,
+        "img": "images/items/Easy.png"
+      },
+      {
+        "codes": "normal",
+        "inherit_codes": false,
+        "img": "images/items/Normal.png"
+      },
+      {
+        "codes": "hard",
+        "inherit_codes": false,
+        "img": "images/items/Hard.png"
+      },
+      {
+        "codes": "itemseasy",
+        "inherit_codes": false,
+        "img": "images/items/Items_Easy.png"
+      },
+      {
+        "codes": "itemsnormal",
+        "inherit_codes": false,
+        "img": "images/items/Items_Normal.png"
+      },
+      {
+        "codes": "itemshard",
+        "inherit_codes": false,
+        "img": "images/items/Items_Hard.png"
+      }
+    ] 
+  },
+  {
+    "name": "Deathlink",
+    "codes": "deathlink",
+    "type": "toggle",
+    "img": "images/items/Deathlink.png"
+  },
+  {
+    "name": "Free Samples",
+    "codes": "samples",
+    "type": "toggle",
+    "img": "images/items/Free_Samples.png"
+  },
+  {
+    "name": "Item Pool",
+    "codes": "pooltype",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "codes": "standard",
+        "inherit_codes": "false",
+        "img": "images/items/Standard_Items.png"
+      },
+      {
+        "codes": "valuable",
+        "inherit_codes": "false",
+        "img": "images/items/Valuable_Items.png"
+      }
+    ]
+  },
+  {
+    "name": "Maximum Logical Depth",
+    "codes": "depth",
     "type": "consumable",
-    "max_quantity": 2,
-    "img": "images/items/Ion_Power_Cell.png",
-    "overlay_background": "#000",
-    "codes": "ionpower"
+    "img": "images/items/Max_Depth.png"
+  },
+  {
+    "name": "Amoeboid",
+    "codes": "Amoeboid",
+    "type": "toggle",
+    "img": "images/creatures/Amoeboid.png"
+  },
+  {
+    "name": "Ancient Floater",
+    "codes": "Ancient Floater",
+    "type": "toggle",
+    "img": "images/creatures/Ancient_Floater.png"
+  },
+  {
+    "name": "Bladderfish",
+    "codes": "Bladderfish",
+    "type": "toggle",
+    "img": "images/creatures/Bladderfish.png"
+  },
+  {
+    "name": "Boomerang",
+    "codes": "Boomerang",
+    "type": "toggle",
+    "img": "images/creatures/Boomerang.png"
+  },
+  {
+    "name": "Crimson Ray",
+    "codes": "Crimson Ray",
+    "type": "toggle",
+    "img": "images/creatures/Crimson_Ray.png"
+  },
+  {
+    "name": "Eyeye",
+    "codes": "Eyeye",
+    "type": "toggle",
+    "img": "images/creatures/Eyeye.png"
+  },
+  {
+    "name": "Floater",
+    "codes": "Floater",
+    "type": "toggle",
+    "img": "images/creatures/Floater.png"
+  },
+  {
+    "name": "Garryfish",
+    "codes": "Garryfish",
+    "type": "toggle",
+    "img": "images/creatures/Garryfish.png"
+  },
+  {
+    "name": "Gasopod",
+    "codes": "Gasopod",
+    "type": "toggle",
+    "img": "images/creatures/Gasopod.png"
+  },
+  {
+    "name": "Ghostray",
+    "codes": "Ghostray",
+    "type": "toggle",
+    "img": "images/creatures/Ghostray.png"
+  },
+  {
+    "name": "Holefish",
+    "codes": "Holefish",
+    "type": "toggle",
+    "img": "images/creatures/Holefish.png"
+  },
+  {
+    "name": "Hoopfish",
+    "codes": "Hoopfish",
+    "type": "toggle",
+    "img": "images/creatures/Hoopfish.png"
+  },
+  {
+    "name": "Hoverfish",
+    "codes": "Hoverfish",
+    "type": "toggle",
+    "img": "images/creatures/Hoverfish.png"
+  },
+  {
+    "name": "Jellyray",
+    "codes": "Jellyray",
+    "type": "toggle",
+    "img": "images/creatures/Jellyray.png"
+  },
+  {
+    "name": "Lava Larva",
+    "codes": "Lava Larva",
+    "type": "toggle",
+    "img": "images/creatures/Lava_Larva.png"
+  },
+
+  {
+    "name": "Magmarang",
+    "codes": "Magmarang",
+    "type": "toggle",
+    "img": "images/creatures/Magmarang.png"
+  },
+  {
+    "name": "Oculus",
+    "codes": "Oculus",
+    "type": "toggle",
+    "img": "images/creatures/Oculus.png"
+  },
+  {
+    "name": "Peeper",
+    "codes": "Peeper",
+    "type": "toggle",
+    "img": "images/creatures/Peeper.png"
+  },
+  {
+    "name": "Rabbit Ray",
+    "codes": "Rabbit Ray",
+    "type": "toggle",
+    "img": "images/creatures/Rabbit_Ray.png"
+  },
+  {
+    "name": "Red Eyeye",
+    "codes": "Red Eyeye",
+    "type": "toggle",
+    "img": "images/creatures/Red_Eyeye.png"
+  },
+  {
+    "name": "Reefback Leviathan",
+    "codes": "Reefback Leviathan",
+    "type": "toggle",
+    "img": "images/creatures/Reefback_Leviathan.png"
+  },
+  {
+    "name": "Reginald",
+    "codes": "Reginald",
+    "type": "toggle",
+    "img": "images/creatures/Reginald.png"
+  },
+  {
+    "name": "Rockgrub",
+    "codes": "Rockgrub",
+    "type": "toggle",
+    "img": "images/creatures/Rockgrub.png"
+  },
+  {
+    "name": "Sea Emperor Leviathan Juvenile",
+    "codes": "Sea Emperor Juvenile",
+    "type": "toggle",
+    "img": "images/creatures/Sea_Emperor_Leviathan_Juvenile.png"
+  },
+  {
+    "name": "Sea Treader Leviathan",
+    "codes": "Sea Treader Leviathan",
+    "type": "toggle",
+    "img": "images/creatures/Sea_Treader_Leviathan.png"
+  },
+
+  {
+    "name": "Shuttlebug",
+    "codes": "Shuttlebug",
+    "type": "toggle",
+    "img": "images/creatures/Shuttlebug.png"
+  },
+  {
+    "name": "Skyray",
+    "codes": "Skyray",
+    "type": "toggle",
+    "img": "images/creatures/Skyray.png"
+  },
+  {
+    "name": "Spadefish",
+    "codes": "Spadefish",
+    "type": "toggle",
+    "img": "images/creatures/Spadefish.png"
+  },
+  {
+    "name": "Spinefish",
+    "codes": "Spinefish",
+    "type": "toggle",
+    "img": "images/creatures/Spinefish.png"
+  },
+  {
+    "name": "Biter",
+    "codes": "Biter",
+    "type": "toggle",
+    "img": "images/creatures/Biter.png"
+  },
+  {
+    "name": "Bleeder",
+    "codes": "Bleeder",
+    "type": "toggle",
+    "img": "images/creatures/Bleeder.png"
+  },
+  {
+    "name": "Blighter",
+    "codes": "Blighter",
+    "type": "toggle",
+    "img": "images/creatures/Blighter.png"
+  },
+  {
+    "name": "Blood Crawler",
+    "codes": "Blood Crawler",
+    "type": "toggle",
+    "img": "images/creatures/Blood_Crawler.png"
+  },
+  {
+    "name": "Cave Crawler",
+    "codes": "Cave Crawler",
+    "type": "toggle",
+    "img": "images/creatures/Cave_Crawler.png"
+  },
+  {
+    "name": "Ghost Leviathan Juvenile",
+    "codes": "Ghost Leviathan Juvenile",
+    "type": "toggle",
+    "img": "images/creatures/Ghost_Leviathan_Juvenile.png"
+  },
+  {
+    "name": "Ghost Leviathan",
+    "codes": "Ghost Leviathan",
+    "type": "toggle",
+    "img": "images/creatures/Ghost_Leviathan.png"
+  },
+  {
+    "name": "Reaper Leviathan",
+    "codes": "Reaper Leviathan",
+    "type": "toggle",
+    "img": "images/creatures/Reaper_Leviathan.png"
+  },
+  {
+    "name": "River Prowler",
+    "codes": "River Prowler",
+    "type": "toggle",
+    "img": "images/creatures/River_Prowler.png"
+  },
+  {
+    "name": "Sea Dragon Leviathan",
+    "codes": "Sea Dragon Leviathan",
+    "type": "toggle",
+    "img": "images/creatures/Sea_Dragon_Leviathan.png"
+  },
+
+  {
+    "name": "Warper",
+    "codes": "Warper",
+    "type": "toggle",
+    "img": "images/creatures/Warper.png"
+  },
+  {
+    "name": "Ampeel",
+    "codes": "Ampeel",
+    "type": "toggle",
+    "img": "images/creatures/Ampeel.png"
+  },
+  {
+    "name": "Boneshark",
+    "codes": "Boneshark",
+    "type": "toggle",
+    "img": "images/creatures/Boneshark.png"
+  },
+  {
+    "name": "Crabsnake",
+    "codes": "Crabsnake",
+    "type": "toggle",
+    "img": "images/creatures/Crabsnake.png"
+  },
+  {
+    "name": "Crabsquid",
+    "codes": "Crabsquid",
+    "type": "toggle",
+    "img": "images/creatures/Crabsquid.png"
+  },
+  {
+    "name": "Crashfish",
+    "codes": "Crashfish",
+    "type": "toggle",
+    "img": "images/creatures/Crashfish.png"
+  },
+  {
+    "name": "Lava Lizard",
+    "codes": "Lava Lizard",
+    "type": "toggle",
+    "img": "images/creatures/Lava_Lizard.png"
+  },
+  {
+    "name": "Mesmer",
+    "codes": "Mesmer",
+    "type": "toggle",
+    "img": "images/creatures/Mesmer.png"
+  },
+  {
+    "name": "Sand Shark",
+    "codes": "Sand Shark",
+    "type": "toggle",
+    "img": "images/creatures/Sand_Shark.png"
+  },
+  {
+    "name": "Stalker",
+    "codes": "Stalker",
+    "type": "toggle",
+    "img": "images/creatures/Stalker.png"
   },
   {
     "name": "Cuddlefish",
-    "type": "consumable",
-    "max_quantity": 5,
-    "img": "images/items/Cuddlefish.png",
-    "overlay_background": "#000",
-    "codes": "Cuddlefish"
+    "codes": "Cuddlefish",
+    "type": "toggle",
+    "img": "images/creatures/Cuddlefish.png"
   },
   {
-    "name": "Dummy",
-    "type": "toggle",
-    "codes": "dummy"
+    "name": "Amoeboid\n1000m below",
+    "codes": "Amoeboid badge",
+    "type": "toggle_badged",
+    "base_item": "Amoeboid",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Ancient Floater",
+    "codes": "Ancient Floater badge",
+    "type": "toggle_badged",
+    "base_item": "Ancient Floater",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Bladderfish",
+    "codes": "Bladderfish badge",
+    "type": "toggle_badged",
+    "base_item": "Bladderfish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Boomerang",
+    "codes": "Boomerang badge",
+    "type": "toggle_badged",
+    "base_item": "Boomerang",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Crimson Ray\n1300m below",
+    "codes": "Crimson Ray badge",
+    "type": "toggle_badged",
+    "base_item": "Crimson Ray",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Eyeye\n300m below",
+    "codes": "Eyeye badge",
+    "type": "toggle_badged",
+    "base_item": "Eyeye",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Floater",
+    "codes": "Floater badge",
+    "type": "toggle_badged",
+    "base_item": "Floater",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Garryfish",
+    "codes": "Garryfish badge",
+    "type": "toggle_badged",
+    "base_item": "Garryfish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Gasopod",
+    "codes": "Gasopod badge",
+    "type": "toggle_badged",
+    "base_item": "Gasopod",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Ghostray\n1000m below",
+    "codes": "Ghostray badge",
+    "type": "toggle_badged",
+    "base_item": "Ghostray",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Holefish",
+    "codes": "Holefish badge",
+    "type": "toggle_badged",
+    "base_item": "Holefish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Hoopfish",
+    "codes": "Hoopfish badge",
+    "type": "toggle_badged",
+    "base_item": "Hoopfish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Hoverfish",
+    "codes": "Hoverfish badge",
+    "type": "toggle_badged",
+    "base_item": "Hoverfish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Jellyray\n300m below",
+    "codes": "Jellyray badge",
+    "type": "toggle_badged",
+    "base_item": "Jellyray",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Lava Larva\n1300m below",
+    "codes": "Lava Larva badge",
+    "type": "toggle_badged",
+    "base_item": "Lava Larva",
+    "img": "images/creatures/Mask.png"
+  },
+
+  {
+    "name": "Magmarang\n1300m below",
+    "codes": "Magmarang badge",
+    "type": "toggle_badged",
+    "base_item": "Magmarang",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Oculus\n300m below",
+    "codes": "Oculus badge",
+    "type": "toggle_badged",
+    "base_item": "Oculus",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Peeper",
+    "codes": "Peeper badge",
+    "type": "toggle_badged",
+    "base_item": "Peeper",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Rabbit Ray",
+    "codes": "Rabbit Ray badge",
+    "type": "toggle_badged",
+    "base_item": "Rabbit Ray",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Red Eyeye\n1300m below",
+    "codes": "Red Eyeye badge",
+    "type": "toggle_badged",
+    "base_item": "Red Eyeye",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Reefback Leviathan",
+    "codes": "Reefback Leviathan badge",
+    "type": "toggle_badged",
+    "base_item": "Reefback Leviathan",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Reginald\n400m below",
+    "codes": "Reginald badge",
+    "type": "toggle_badged",
+    "base_item": "Reginald",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Rockgrub\n400m below",
+    "codes": "Rockgrub badge",
+    "type": "toggle_badged",
+    "base_item": "Rockgrub",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Sea Emperor Leviathan Juvenile\n1700m below",
+    "codes": "Sea Emperor Juvenile badge",
+    "type": "toggle_badged",
+    "base_item": "Sea Emperor Juvenile",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Sea Treader Leviathan\n400m below",
+    "codes": "Sea Treader Leviathan badge",
+    "type": "toggle_badged",
+    "base_item": "Sea Treader Leviathan",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Shuttlebug",
+    "codes": "Shuttlebug badge",
+    "type": "toggle_badged",
+    "base_item": "Shuttlebug",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Skyray",
+    "codes": "Skyray badge",
+    "type": "toggle_badged",
+    "base_item": "Skyray",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Spadefish",
+    "codes": "Spadefish badge",
+    "type": "toggle_badged",
+    "base_item": "Spadefish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Spinefish\n600m below",
+    "codes": "Spinefish badge",
+    "type": "toggle_badged",
+    "base_item": "Spinefish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Biter\n200m below",
+    "codes": "Biter badge",
+    "type": "toggle_badged",
+    "base_item": "Biter",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Bleeder\n200m below",
+    "codes": "Bleeder badge",
+    "type": "toggle_badged",
+    "base_item": "Bleeder",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Blighter\n600m below",
+    "codes": "Blighter badge",
+    "type": "toggle_badged",
+    "base_item": "Blighter",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Blood Crawler\n600m below",
+    "codes": "Blood Crawler badge",
+    "type": "toggle_badged",
+    "base_item": "Blood Crawler",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Cave Crawler",
+    "codes": "Cave Crawler badge",
+    "type": "toggle_badged",
+    "base_item": "Cave Crawler",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Ghost Leviathan Juvenile\n500m below",
+    "codes": "Ghost Leviathan Juvenile badge",
+    "type": "toggle_badged",
+    "base_item": "Ghost Leviathan Juvenile",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Ghost Leviathan\n500m below",
+    "codes": "Ghost Leviathan badge",
+    "type": "toggle_badged",
+    "base_item": "Ghost Leviathan",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Reaper Leviathan",
+    "codes": "Reaper Leviathan badge",
+    "type": "toggle_badged",
+    "base_item": "Reaper Leviathan",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "River Prowler\n1000m below",
+    "codes": "River Prowler badge",
+    "type": "toggle_badged",
+    "base_item": "River Prowler",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Sea Dragon Leviathan\n1300m below",
+    "codes": "Sea Dragon Leviathan badge",
+    "type": "toggle_badged",
+    "base_item": "Sea Dragon Leviathan",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Warper",
+    "codes": "Warper badge",
+    "type": "toggle_badged",
+    "base_item": "Warper",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Ampeel\n400m below",
+    "codes": "Ampeel badge",
+    "type": "toggle_badged",
+    "base_item": "Ampeel",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Boneshark\n400m below",
+    "codes": "Boneshark badge",
+    "type": "toggle_badged",
+    "base_item": "Boneshark",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Crabsnake\n300m below",
+    "codes": "Crabsnake badge",
+    "type": "toggle_badged",
+    "base_item": "Crabsnake",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Crabsquid\n400m below",
+    "codes": "Crabsquid badge",
+    "type": "toggle_badged",
+    "base_item": "Crabsquid",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Crashfish",
+    "codes": "Crashfish badge",
+    "type": "toggle_badged",
+    "base_item": "Crashfish",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Lava Lizard\n1300m below",
+    "codes": "Lava Lizard badge",
+    "type": "toggle_badged",
+    "base_item": "Lava Lizard",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Mesmer\n300m below",
+    "codes": "Mesmer badge",
+    "type": "toggle_badged",
+    "base_item": "Mesmer",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Sand Shark\n200m below",
+    "codes": "Sand Shark badge",
+    "type": "toggle_badged",
+    "base_item": "Sand Shark",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Stalker",
+    "codes": "Stalker badge",
+    "type": "toggle_badged",
+    "base_item": "Stalker",
+    "img": "images/creatures/Mask.png"
+  },
+  {
+    "name": "Cuddlefish\nEgg 300m below",
+    "codes": "Cuddlefish badge",
+    "type": "toggle_badged",
+    "base_item": "Cuddlefish",
+    "img": "images/creatures/Mask.png"
   }
 ]

@@ -1,26 +1,26 @@
 [
   {
     "name": "Crater",
-    "location_size": 10,
-    "location_border_thickness": 5,
-    "img": "images/maps/Subnautica_Biome_Map.png"
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/crater.png"
   },
   {
-    "name": "CaveNetwork",
-    "location_size": 10,
-    "location_border_thickness": 3,
-    "img": "images/maps/cave_network.png"
+    "name": "CaveNetworks",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cave_networks.png"
   },
   {
     "name": "PassiveCreatures",
-    "location_size": 10,
-    "location_border_thickness": 5,
+    "location_size": 12,
+    "location_border_thickness": 2,
     "img": "images/maps/creature_screen.png"
   },
   {
     "name": "HostileCreatures",
-    "location_size": 10,
-    "location_border_thickness": 5,
+    "location_size": 12,
+    "location_border_thickness": 2,
     "img": "images/maps/HCreatures.png"
   }
 ]

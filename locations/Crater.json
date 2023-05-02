@@ -8,63 +8,13 @@
         "children": 
         [
             {
-                "name": "Blood Kelp Trench Wreck \n (x: -1208, y: -332, z: -390)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 175,
-                        "y": 491
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Databox Outside",
-                        "access_rules": 
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Databox Inside",
-                        "access_rules": 
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "PDA",
-                        "access_rules": 
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bulb Zone West Wreck \n (x: 903, y: -220, z: 590)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 654,
-                        "y": 260
+                "name": "Blood Kelp Trench Wreck\n350m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 156,
+						"y": 478
                     }
                 ],
                 "sections": 
@@ -73,7 +23,45 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "radsuit,rebreather"
+                            "[$canAccess|-1234.3|-349.7|-396.0], $canAccess|-1234.3|-349.7|-396.0|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside Databox",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-1208.0|-349.6|-383.0], $canAccess|-1208.0|-349.6|-383.0|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-1210.6|-340.7|-393.4], $canAccess|-1210.6|-340.7|-393.4|5"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bulb Zone West Wreck\n220m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 582,
+						"y": 278
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Outside Databox",
+                        "access_rules": 
+                        [
+                            "[$canAccess|903.8|-220.3|590.9], $canAccess|903.8|-220.3|590.9|5"
                         ],
                         "item_count": 1
                     },
@@ -81,15 +69,15 @@
                         "name": "Under Databox",
                         "access_rules": 
                         [
-                            "radsuit,rebreather"
-                        ],  
+                            "[$canAccess|910.9|-201.8|623.5], $canAccess|910.9|-201.8|623.5|5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Inside Databox",
                         "access_rules": 
                         [
-                            "cutter:3,rebreather,radsuit"
+                            "[$canAccess|914.9|-202.1|611.8], $canAccess|914.9|-202.1|611.8|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -97,20 +85,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "cutter:3,rebreather,radsuit"
+                            "[$canAccess|912.6|-202.0|609.5], $canAccess|912.6|-202.0|609.5|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bulb Zone Lifepod 12 \n (x: 1120, y: -265, z: 560)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 692,
-                        "y": 278
+                "name": "Bulb Zone East Wreck\n235m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 665,
+						"y": 285
                     }
                 ],
                 "sections": 
@@ -119,58 +107,20 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, radsuit",
-                            "hightank, fins, rebreather, modify:3, radsuit",
-                            "vehiclebay:3, seamoth:3, rebreather,radsuit",
-                            "vehiclebay:3, prawn:4,radsuit",
-                            "vehiclebay:3, cyclops:9,radsuit"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "PDA",
-                        "access_rules": 
-                        [
-                            "seaglide:2, rebreather, radsuit",
-                            "hightank, fins, rebreather, modify:3, radsuit",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|1327.1|-234.9|575.8], $canAccess|1327.1|-234.9|575.8|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bulb Zone Wreck East \n (x: 1292, y: -200, z: 583)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 720,
-                        "y": 266
-                    }
-                ],
-                "sections": 
-                [       
-                    {
-                        "name": "Databox",
-                        "access_rules": 
-                        [
-                            "rebreather"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Dunes North Wreck \n (x: -1407, y: -344, z: 721)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 115,
-                        "y": 235
+                "name": "Dunes North Wreck\n345m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 120,
+						"y": 255
                     }
                 ],
                 "sections": 
@@ -179,11 +129,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1407.7|-344.2|721.5], $canAccess|-1407.7|-344.2|721.5|5"
                         ],
                         "item_count": 1
                     },
@@ -191,11 +137,7 @@
                         "name": "Office Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1393.9|-329.7|733.5], $canAccess|-1393.9|-329.7|733.5|5"
                         ],
                         "item_count": 1
                     },
@@ -203,11 +145,7 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1396.3|-330.8|730.0], $canAccess|-1396.3|-330.8|730.0|5"
                         ],
                         "item_count": 1
                     },
@@ -215,24 +153,20 @@
                         "name": "Cargo Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-1409.8|-332.4|706.9], $canAccess|-1409.8|-332.4|706.9|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Dunes Wreck West \n (x: -1626, y: -357, z: 99)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 78,
-                        "y": 379
+                "name": "Dunes West Wreck\n360m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 75,
+						"y": 380
                     }
                 ],
                 "sections": 
@@ -241,24 +175,20 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1626.2|-357.5|99.5], $canAccess|-1626.2|-357.5|99.5|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Dunes East Wreck \n (x: -1196, y: -223 z: 12)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 173,
-                        "y": 410
+                "name": "Dunes East Wreck\n225m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 160,
+						"y": 398
                     }
                 ],
                 "sections": 
@@ -267,11 +197,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1196.3|-223.0|12.5], $canAccess|-1196.3|-223.0|12.5|5"
                         ],
                         "item_count": 1
                     },
@@ -279,24 +205,20 @@
                         "name": "Inside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1206.4|-225.6|4.0], $canAccess|-1206.4|-225.6|4.0|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Grand Reef North Wreck \n (x: -269, y: -262, z: -764)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 363,
-                        "y": 575
+                "name": "Grand Reef North Wreck\n265m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 344,
+						"y": 556
                     }
                 ],
                 "sections": 
@@ -305,11 +227,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-269.7|-262.8|-764.3], $canAccess|-269.7|-262.8|-764.3|5"
                         ],
                         "item_count": 1
                     },
@@ -317,11 +235,7 @@
                         "name": "Elevator Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3 cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-285.8|-240.2|-786.5], $canAccess|-285.8|-240.2|-786.5|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -329,11 +243,7 @@
                         "name": "Bottom Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-285.2|-262.4|-788.4], $canAccess|-285.2|-262.4|-788.4|5"
                         ],
                         "item_count": 1
                     },
@@ -341,24 +251,20 @@
                         "name": "Hangar PDA",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-272.5|-254.7|-788.5], $canAccess|-272.5|-254.7|-788.5|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Grand Reef South Wreck \n (x: -850, y: -473, z: -1414)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 250,
-                        "y": 708
+                "name": "Grand Reef South Wreck\n475m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 225,
+						"y": 685
                     }
                 ],
                 "sections": 
@@ -367,11 +273,7 @@
                         "name": "Trench Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-850.9|-473.2|-1414.6], $canAccess|-850.9|-473.2|-1414.6|5"
                         ],
                         "item_count": 1
                     },
@@ -379,11 +281,7 @@
                         "name": "Comms Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-889.4|-433.8|-1424.8], $canAccess|-889.4|-433.8|-1424.8|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -391,11 +289,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [   
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-862.4|-437.5|-1444.1], $canAccess|-862.4|-437.5|-1444.1|5"
                         ],
                         "item_count": 1
                     },
@@ -403,24 +297,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-887.9|-446.0|-1422.7], $canAccess|-887.9|-446.0|-1422.7|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Grassy Plateaus South Wreck \n (x: -23, y: -105, z: -604)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 453,
-                        "y": 548
+                "name": "Grassy Plateaus South Wreck\n110m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 395,
+						"y": 521
                     }
                 ],
                 "sections": 
@@ -429,7 +319,7 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "rebreather, radsuit"
+                            "[$canAccess|-23.3|-105.8|-604.2], $canAccess|-23.3|-105.8|-604.2|5"
                         ],
                         "item_count": 1
                     },
@@ -437,20 +327,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "rebreather, radsuit"
+                            "[$canAccess|-27.3|-106.8|-607.2], $canAccess|-27.3|-106.8|-607.2|5"
                         ],
                         "item_count": 1
                     }   
                 ]
             },
             {
-                "name": "Grassy Plateaus East Wreck \n (x: 313, y: -91, z: 432)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 541,
-                        "y": 299
+                "name": "Grassy Plateaus East Wreck\n105m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 463,
+						"y": 313
                     }
                 ],
                 "sections": 
@@ -459,7 +349,7 @@
                         "name": "Breach Databox",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3, radsuit"
+                            "[$canAccess|313.9|-91.8|432.6], $canAccess|313.9|-91.8|432.6|5, [cutter:3]"
                         ],  
                         "item_count": 1
                     },
@@ -467,20 +357,20 @@
                         "name": "Hangar Databox",
                         "access_rules":
                         [                         
-                            "rebreather, cutter:3, radsuit"
+                            "[$canAccess|319.4|-104.3|441.5], $canAccess|319.4|-104.3|441.5|5, [cutter:3]"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Grassy Plateaus West Wreck \n (x: -632, y: -75, z: -8)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 285,
-                        "y": 405
+                "name": "Grassy Plateaus West Wreck\n110m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 271,
+						"y": 402
                     }
                 ],
                 "sections": 
@@ -489,7 +379,7 @@
                         "name": "Locker PDA",
                         "access_rules":
                         [
-                            ""
+                            "[$canAccess|-632.3|-75.0|-8.9], $canAccess|-632.3|-75.0|-8.9|5"
                         ],
                         "item_count": 1
                     },
@@ -497,7 +387,7 @@
                         "name": "Beam PDA",
                         "access_rules":
                         [
-                            ""
+                            "[$canAccess|-641.8|-111.3|-19.7], $canAccess|-641.8|-111.3|-19.7|5"
                         ],
                         "item_count": 1
                     },
@@ -505,20 +395,20 @@
                         "name": "Data Terminal",
                         "access_rules":
                         [
-                            ""
+                            "[$canAccess|-664.4|-97.8|-8.0], $canAccess|-664.4|-97.8|-8.0|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },  
             {
-                "name": "Grassy Plateaus South West Wreck \n (x: -418, y: -94 z: -261)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 342,
-                        "y": 463
+                "name": "Grassy Plateaus Southwest Wreck\n110m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 316,
+						"y": 453
                     }
                 ],
                 "sections": 
@@ -527,20 +417,20 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "cutter:3"
+                            "[$canAccess|-421.4|-107.8|-266.5], $canAccess|-421.4|-107.8|-266.5|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Safe Shallows Wreck \n (x: -44, y: -29, z: -403)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 423,
-                        "y": 485
+                "name": "Safe Shallows Wreck\n30m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 391,
+						"y": 481
                     }
                 ],
                 "sections": 
@@ -549,20 +439,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-44.0|-29.1|-403.6], $canAccess|-44.0|-29.1|-403.6|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Kelp Forest West Wreck \n (x: -317, y: -79, z: 248)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 365,
-                        "y": 345
+                "name": "Kelp Forest West Wreck\n80m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 336,
+						"y": 351
                     }
                 ],
                 "sections": 
@@ -571,20 +461,20 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-317.6|-78.8|247.4], $canAccess|-317.6|-78.8|247.4|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Kelp Forest North Wreck \n (x: 63, y: -38, z: 382)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 459,
-                        "y": 319
+                "name": "Kelp Forest North Wreck\n40m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 413,
+						"y": 323
                     }
                 ],
                 "sections": 
@@ -593,20 +483,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|63.2|-38.5|382.9], $canAccess|63.2|-38.5|382.9|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Mountains Central Wreck \n (x: 740, y: -346, z: 1220)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 615,
-                        "y": 138
+                "name": "Mountains West Wreck\n390m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 541,
+						"y": 161
                     }
                 ],
                 "sections": 
@@ -615,11 +505,7 @@
                         "name": "Outside Databox",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|740.3|-389.2|1179.8], $canAccess|740.3|-389.2|1179.8|5"
                         ],
                         "item_count": 1
                     },
@@ -627,11 +513,7 @@
                         "name": "Office Databox",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|676.3|-343.6|1204.6], $canAccess|676.3|-343.6|1204.6|5"
                         ],
                         "item_count": 1
                     },
@@ -639,11 +521,7 @@
                         "name": "Hangar Databox",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|698.2|-350.8|1186.9], $canAccess|698.2|-350.8|1186.9|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -651,24 +529,20 @@
                         "name": "Data Terminal",
                         "access_rules":
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|703.7|-365.9|1199.3], $canAccess|703.7|-365.9|1199.3|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Mountains East Wreck \n (x: 1057, y: -254, z: 1359)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 685,
-                        "y": 110
+                "name": "Mountains East Wreck\n290m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 614,
+						"y": 133
                     }
                 ],
                 "sections": 
@@ -677,11 +551,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|1075.7|-288.9|1321.8], $canAccess|1075.7|-288.9|1321.8|5"
                         ],
                         "item_count": 1
                     },
@@ -689,24 +559,20 @@
                         "name": "Comms Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|1068.5|-283.4|1345.3], $canAccess|1068.5|-283.4|1345.3|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },  
             {
-                "name": "Mushroom Forest Wreck \n (x: -672, y: -113, z: 750)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 285,
-                        "y": 225
+                "name": "Northwestern Mushroom Forest Wreck\n115m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 268,
+						"y": 244
                     }
                 ],
                 "sections": 
@@ -715,7 +581,7 @@
                         "name": "Office Databox",
                         "access_rules": 
                         [
-                            "rebreather"
+                            "[$canAccess|-663.4|-111.9|777.9], $canAccess|-663.4|-111.9|777.9|5"
                         ],
                         "item_count": 1
                     },
@@ -723,7 +589,7 @@
                         "name": "Cargo Databox",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3"
+                            "[$canAccess|-655.1|-109.6|791.0], $canAccess|-655.1|-109.6|791.0|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -731,20 +597,20 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "rebreather"
+                            "[$canAccess|-662.2|-113.4|777.7], $canAccess|-662.2|-113.4|777.7|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Sea Treader's Path Wreck \n (x: -1148, y: -166, z: -706)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 180,
-                        "y": 572
+                "name": "Sea Treader's Path Wreck\n195m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 173,
+						"y": 547
                     }
                 ],
                 "sections": 
@@ -753,11 +619,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-1161.1|-191.7|-758.3], $canAccess|-1161.1|-191.7|-758.3|5"
                         ],
                         "item_count": 1
                     },
@@ -765,40 +627,36 @@
                         "name": "Lobby Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-1115.9|-175.3|-724.5], $canAccess|-1115.9|-175.3|-724.5|5"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hangar Databox",
                         "access_rules": 
-                        [
-                            "rebreather"
+                        [ 
+                            "[$canAccess|-1129.5|-155.2|-729.3], $canAccess|-1129.5|-155.2|-729.3|5, cutter:3"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "PDA",
                         "access_rules": 
-                        [
-                            "rebreather"
+                        [ 
+                            "[$canAccess|-1136.8|-157.0|-734.6], $canAccess|-1136.8|-157.0|-734.6|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Sparse Reef Wreck \n (x: -781, y: -216, z: -730)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 255,
-                        "y": 570
+                "name": "Sparse Reef Wreck\n215m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 240,
+						"y": 545
                     }
                 ],
                 "sections": 
@@ -807,11 +665,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-810.7|-209.3|-685.5], $canAccess|-810.7|-209.3|-685.5|5"
                         ],
                         "item_count": 1
                     },
@@ -819,11 +673,7 @@
                         "name": "Locker Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather , cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-789.8|-216.1|-711.0], $canAccess|-789.8|-216.1|-711.0|5"
                         ],
                         "item_count": 1
                     },  
@@ -831,24 +681,20 @@
                         "name": "Lab Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather, cutter:3",
-                            "hightank, fins, rebreather, modify:3, cutter:3",
-                            "vehiclebay:3, seamoth:3, rebreather, cutter:3",
-                            "vehiclebay:3, prawn:4, cutter:3",
-                            "vehiclebay:3, cyclops:9, cutter:3"
+                            "[$canAccess|-795.5|-204.1|-774.7], $canAccess|-795.5|-204.1|-774.7|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Underwater Islands Wreck \n (x: -62, y: -192, z: 862)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 428,
-                        "y": 210
+                "name": "Underwater Islands Wreck\n200m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 372,
+						"y": 225
                     }
                 ],
                 "sections": 
@@ -857,7 +703,7 @@
                         "name": "Outside Databox",
                         "access_rules": 
                         [
-                            "rebreather"
+                            "[$canAccess|-170.8|-187.6|880.7], $canAccess|-170.8|-187.6|880.7|5"
                         ],
                         "item_count": 1
                     },
@@ -865,7 +711,7 @@
                         "name": "Hangar Databox",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3"
+                            "[$canAccess|-138.4|-193.6|888.7], $canAccess|-138.4|-193.6|888.7|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -873,7 +719,7 @@
                         "name": "Cable Databox",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3"
+                            "[$canAccess|-137.8|-193.4|879.4], $canAccess|-137.8|-193.4|879.4|5"
                         ],
                         "item_count": 1
                     },
@@ -881,7 +727,8 @@
                         "name": "Pipes Databox 1",
                         "access_rules": 
                         [
-                            "rebreather, cannon:2"
+                            "[$canAccess|-124.4|-200.7|853.0], $canAccess|-124.4|-200.7|853.0|5, propcannon:2",
+                            "[$canAccess|-124.4|-200.7|853.0], $canAccess|-124.4|-200.7|853.0|5, $usePrawn, prawnprop:2, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
@@ -889,7 +736,8 @@
                         "name": "Pipes Databox 2",
                         "access_rules": 
                         [
-                            "rebreather, cannon:2"
+                            "[$canAccess|-126.8|-201.1|852.1], $canAccess|-126.8|-201.1|852.1|5, propcannon:2",
+                            "[$canAccess|-124.4|-200.7|853.0], $canAccess|-124.4|-200.7|853.0|5, $usePrawn, prawnprop:2, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
@@ -897,174 +745,160 @@
                         "name": "Data Terminal",
                         "access_rules": 
                         [
-                            "rebreather, cutter:3"
+                            "[$canAccess|-130.7|-193.2|883.3], $canAccess|-130.7|-193.2|883.3|5, cutter:3"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Deep Grand Reef Seabase \n (x: -630, y: -500, z: -930)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 310,
-                        "y": 640
+                "name": "Deep Grand Reef Degasi Seabase\n510m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 272,
+						"y": 588
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Databox",
+                        "name": "Observatory Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather, moonpool:2, smd1",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-635.1|-502.7|-951.4], $canAccess|-635.1|-502.7|-951.4|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "PDA",
+                        "name": "Bedroom Databox",
                         "access_rules": 
                         [
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather, seaglide:2",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 4
-                    }
-                ]
-            },
-            {
-                "name": "Floating Island Central Base",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 265,
-                        "y": 665
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Databox",
-                        "access_rules": 
-                        [
-                            ""
+                            "[$canAccess|-643.8|-509.9|-941.9], $canAccess|-643.8|-509.9|-941.9|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "PDA",
+                        "name": "Observatory PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-647.7|-502.6|-935.8], $canAccess|-647.7|-502.6|-935.8|5"
                         ],
-                        "item_count": 3
-                    }
-                ]
-            },
-            {
-                "name": "Floating Island East Base",
-                "map_locations": 
-                [
+                        "item_count": 1
+                    },
                     {
-                        "map": "Crater",
-                        "x": 285,
-                        "y": 690
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "PDA",
+                        "name": "Bedroom PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-645.8|-508.7|-943.0], $canAccess|-645.8|-508.7|-943.0|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-630.5|-511.1|-936.1], $canAccess|-630.5|-511.1|-936.1|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lab PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-639.6|-505.9|-946.6], $canAccess|-639.6|-505.9|-946.6|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Floating Island West Base",
+                "name": "Floating Island\nSurface",
                 "map_locations": 
                 [
                     {
                         "map": "Crater",
-                        "x": 240,
-                        "y": 650
+                        "x": 249,
+                        "y": 624
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "PDA",
+                        "name": "Lake - PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-707.2|0.5|-1096.7], $canAccess|-707.2|0.5|-1096.7|5"
                         ],
                         "item_count": 1
-                    }
-                ]   
-            },
-            {   
-                "name": "Floating Island Cave Path",
-                "map_locations": 
-                [
+                    },
                     {
-                        "map": "Crater",
-                        "x": 265,
-                        "y": 690
-                    }
-                ],
-                "sections": 
-                [
+                        "name": "Central Base - Databox",
+                        "access_rules": 
+                        [ 
+                            "[$canAccess|-765.7|17.6|-1116.4], $canAccess|-765.7|17.6|-1116.4|5"
+                        ],
+                        "item_count": 1
+                    },
                     {
-                        "name": "PDA",
+                        "name": "Central Base - Room PDA",
+                        "access_rules": 
+                        [   
+                            "[$canAccess|-754.9|14.6|-1108.9], $canAccess|-754.9|14.6|-1108.9|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Central Base - Green Wall PDA",
+                        "access_rules": 
+                        [   
+                            "[$canAccess|-765.3|14.1|-1115.0], $canAccess|-765.3|14.1|-1115.0|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Central Base - Corridor PDA",
+                        "access_rules": 
+                        [   
+                            "[$canAccess|-758.6|14.1|-1111.3], $canAccess|-758.6|14.1|-1111.3|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cave Entrance - PDA",
                         "access_rules": 
                         [
-                            ""
+                            "[$canAccess|-748.9|14.4|-1179.5], $canAccess|-748.9|14.4|-1179.5|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "North Observatory - PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-805.4|76.9|-1055.7], $canAccess|-805.4|76.9|-1055.7|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "South Observatory - PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|-715.9|75.4|-1168.8], $canAccess|-715.9|75.4|-1168.8|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Floating Island Rendevous Point",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 280,
-                        "y": 657
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "PDA",
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Lifepod 2 \n (x: -481.4, y: -503.6, z: 1324)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 337,
-                        "y": 120
+                "name": "Lifepod 2\n505m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 304,
+						"y": 135
                     }
                 ],  
                 "sections": 
@@ -1073,10 +907,7 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather, seaglide:2",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-483.6|-504.7|1326.6], $canAccess|-483.6|-504.7|1326.6|5"
                         ],
                         "item_count": 1
                     },
@@ -1084,23 +915,80 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather, seaglide:2",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-481.4|-503.6|1324.1], $canAccess|-481.4|-503.6|1324.1|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lifepod 3 \n (x: -26, y: -18, z: 414)",
-                "map_locations": 
+                "name": "Lifepod 3\n25m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 393,
+						"y": 318
+                    }
+                ],
+                "sections": 
                 [
                     {
-                        "map": "Crater",
-                        "x": 435,
-                        "y": 315
+                        "name": "Databox",
+                        "access_rules": 
+                        [   
+                            "[$canAccess|-34.2|-22.4|410.5], $canAccess|-34.2|-22.4|410.5|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PDA",
+                        "access_rules": 
+                        [ 
+                            "[$canAccess|-33.8|-22.5|408.8], $canAccess|-33.8|-22.5|408.8|5"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lifepod 4\nSurface",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 542,
+						"y": 368
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Databox",
+                        "access_rules": 
+                        [ 
+                            "[$canAccess|712.4|-3.4|160.8], $canAccess|712.4|-3.4|160.8|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PDA",
+                        "access_rules": 
+                        [   
+                            "[$canAccess|712.0|-3.5|161.5], $canAccess|712.0|-3.5|161.5|5"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lifepod 6\n120m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 472,
+						"y": 338
                     }
                 ],
                 "sections": 
@@ -1109,67 +997,7 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "PDA",
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Lifepod 4 \n (x: 710, y: -5, z: 152)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 555,
-                        "y": 415
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Databox",
-                        "access_rules": 
-                        [
-                            "radsuit"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "PDA",
-                        "access_rules": 
-                        [
-                            "radsuit"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Lifepod 6 \n (x: 356, Y: -109, z: 312)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 538,
-                        "y": 340
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Databox",
-                        "access_rules": 
-                        [
-                            "radsuit"
+                            "[$canAccess|358.7|-117.1|306.8], $canAccess|358.7|-117.1|306.8|5"
                         ],
                         "item_count": 1
                     },
@@ -1177,7 +1005,7 @@
                         "name": "Inside PDA",
                         "access_rules": 
                         [
-                            "radsuit"
+                            "[$canAccess|361.8|-116.2|309.5], $canAccess|361.8|-116.2|309.5|5"
                         ],
                         "item_count": 1
                     },
@@ -1185,20 +1013,20 @@
                         "name": "Outside PDA",
                         "access_rules": 
                         [
-                            "radsuit"
+                            "[$canAccess|359.9|-117.0|312.1], $canAccess|359.9|-117.0|312.1|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lifepod 7 \n (x: -55, Y: -179, X: -1039)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 430,
-                        "y": 648
+                "name": "Lifepod 7\n185m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 389,
+						"y": 608
                     }
                 ],  
                 "sections": 
@@ -1207,20 +1035,50 @@
                         "name": "PDA",
                         "access_rules": 
                         [
-                            "rebreather"
+                            "[$canAccess|-56.0|-182.0|-1039.0], $canAccess|-56.0|-182.0|-1039.0|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lifepod 13 \n (x: -922, y: -177, z: 501)",
-                "map_locations": 
-                [
+                "name": "Lifepod 12\n275m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 624,
+						"y": 287
+                    }
+                ],
+                "sections": 
+                [       
                     {
-                        "map": "Crater",
-                        "x": 235,
-                        "y": 287
+                        "name": "Databox",
+                        "access_rules": 
+                        [
+                            "[$canAccess|1119.5|-271.7|561.7], $canAccess|1119.5|-271.7|561.7|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|1116.1|-271.3|566.9], $canAccess|1116.1|-271.3|566.9|5"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lifepod 13\n185m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 215,
+						"y": 299
                     }
                 ],
                 "sections": 
@@ -1229,28 +1087,28 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "rebreather"
+                            "[$canAccess|-926.4|-185.2|501.8], $canAccess|-926.4|-185.2|501.8|5"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "PDA",
                         "access_rules": 
-                        [
-                            "rebreather"
+                        [   
+                            "[$canAccess|-926.8|-184.4|506.6], $canAccess|-926.8|-184.4|506.6|5"
                         ],
                         "item_count": 1
                     }   
                 ]
             },
             {
-                "name": "Lifepod 17 \n (x: -515, y: -91, z: -56)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 320,
-                        "y": 415
+                "name": "Lifepod 17\n100m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 297,
+						"y": 411
                     }
                 ],
                 "sections": 
@@ -1258,21 +1116,21 @@
                     {
                         "name": "PDA",
                         "access_rules": 
-                        [
-                            ""
+                        [ 
+                            "[$canAccess|-514.5|-98.1|-56.5], $canAccess|-514.5|-98.1|-56.5|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Lifepod 19 \n (x: -806, y: -297, z: -882)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 245,
-                        "y": 610
+                "name": "Lifepod 19\n305m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 238,
+						"y": 574
                     }
                 ],
                 "sections": 
@@ -1281,11 +1139,7 @@
                         "name": "Databox",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-809.8|-302.2|-876.9], $canAccess|-809.8|-302.2|-876.9|5"
                         ],
                         "item_count": 1
                     },
@@ -1293,11 +1147,7 @@
                         "name": "Outside PDA",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-806.1|-294.1|-866.0], $canAccess|-806.1|-294.1|-866.0|5"
                         ],
                         "item_count": 1
                     },
@@ -1305,172 +1155,153 @@
                         "name": "Inside PDA",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "vehiclebay:3, seamoth:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-810.5|-299.4|-873.1], $canAccess|-810.5|-299.4|-873.1|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Aurora Seamoth Bay",
+                "name": "Upper Aurora",
                 "map_locations": 
                 [
                     {
                         "map": "Crater",
-                        "x": 642,
-                        "y": 428
+                        "x": 586,
+                        "y": 390
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Upgrade Console",
+                        "name": "Seamoth Bay - Upgrade Console",
                         "access_rules": 
                         [
-                            "repair, radsuit"
+                            "[$canAccess|903.5|-0.2|16.1], $canAccess|903.5|-0.2|16.1|5, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "PDA",
+                        "name": "Seamoth Bay - PDA",
                         "access_rules": 
                         [
-                            "repair, radsuit"
+                            "[$canAccess|907.1|-1.5|15.3], $canAccess|907.1|-1.5|15.3|, [propcannon:2]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Drive Room - Upgrade Console",
+                        "access_rules": 
+                        [
+                            "[$canAccess|872.5|2.7|-0.7], $canAccess|872.5|2.7|-0.7|5, [propcannon:2]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Office - PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|952.1|41.2|113.9], $canAccess|952.1|41.2|113.9|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Office - Data Terminal",
+                        "access_rules": 
+                        [
+                            "[$canAccess|945.8|40.8|115.1], $canAccess|945.8|40.8|115.1|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Entrance - PDA",
+                        "access_rules": 
+                        [ 
+                            "[$canAccess|977.2|39.1|83.0], $canAccess|977.2|39.1|83.0|5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cargo Bay - PDA\n(Code 1454)",
+                        "access_rules": 
+                        [
+                            "[$canAccess|954.9|11.2|3.4], $canAccess|954.9|11.2|3.4|5, [propcannon:2]"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Aurora Drive Core",
+                "name": "Lower Aurora",
                 "map_locations": 
                 [
                     {
                         "map": "Crater",
-                        "x": 625,
-                        "y": 440
+                        "x": 601,
+                        "y": 400
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Upgrade Console",
+                        "name": "Locker Room - Locker Floor PDA",
                         "access_rules": 
                         [
-                            "radsuit"
+                            "[$canAccess|952.0|-3.7|-23.4], $canAccess|952.0|-3.7|-23.4|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Aurora PRAWN Bay",
-                "map_locations": 
-                [
+                    },
                     {
-                        "map": "Crater",
-                        "x": 665,
-                        "y": 440
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Upgrade Console",
+                        "name": "Locker Room - Medkit Locker PDA",
                         "access_rules": 
                         [
-                            "cutter:3, radsuit"
+                            "[$canAccess|951.8|-2.3|-34.7], $canAccess|951.8|-2.3|-34.7|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
-                    }
-                ]   
-            },
-            {
-                "name": "Aurora Lab",
-                "map_locations": 
-                [
+                    },
                     {
-                        "map": "Crater",
-                        "x": 675,
-                        "y": 420
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Outside Lab PDA",
+                        "name": "Prawn Bay - Upgrade Console",
                         "access_rules": 
                         [
-                            "radsuit, cannon:2",
-                            "radsuit, cutter:3"
+                            "[$canAccess|991.6|3.2|-31.0], $canAccess|991.6|3.2|-31.0|5, cutter:3, [propcannon:2]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ring - PDA",
+                        "access_rules": 
+                        [
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, cutter:3, [propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, $usePrawn, prawnprop:2, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {   
-                        "name": "Inside Lab PDA \n (Code 6483)",
+                        "name": "Lab - PDA\n(Code 6483)",
                         "access_rules": 
                         [
-                            "radsuit, cannon:2",
-                            "radsuit, cutter:3"
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, cutter:3, [propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, $usePrawn, prawnprop:2, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {   
-                        "name": "Inside Lab Upgrade Console \n (Code 6483)",
+                        "name": "Lab - Data Terminal\n(Code 6483)",
                         "access_rules": 
                         [
-                            "radsuit, cannon:2",
-                            "radsuit, cutter:3"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Aurora Entrance Bay",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 660,
-                        "y": 425
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Aurora Office PDA",
-                        "access_rules": 
-                        [
-                            "radsuit"
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, cutter:3, [propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, propcannon:2]",
+                            "[$canAccess|1033.6|-8.5|16.2], $canAccess|1033.6|-8.5|16.2|5, $usePrawn, prawnprop:2, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Aurora Office Upgrade Console",
+                        "name": "Black Box - Data Terminal",
                         "access_rules": 
                         [
-                            "radsuit"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Outside Cargo Bay PDA",
-                        "access_rules": 
-                        [
-                            "radsuit"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cargo Bay PDA \n (Code 1454)",
-                        "access_rules": 
-                        [
-                            "radsuit"
+                            "[$canAccess|1040.8|-11.4|-3.4], $canAccess|1040.8|-11.4|-3.4|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     }
@@ -1482,8 +1313,8 @@
                 [
                     {
                         "map": "Crater",
-                        "x": 650,
-                        "y": 465
+                        "x": 594,
+                        "y": 412
                     }
                 ],
                 "sections": 
@@ -1492,17 +1323,15 @@
                         "name": "Cafeteria PDA",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|986.5|9.6|-48.6], $canAccess|986.5|9.6|-48.6|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     },  
                     {
-                        "name": "Cabin 1 PDA \n (Code 1869)",
+                        "name": "Cabin 1 PDA\n(Code 1869)",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|964.1|11.1|-61.9], $canAccess|964.1|11.1|-61.9|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
@@ -1510,8 +1339,7 @@
                         "name": "Cabin 4 PDA",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3 ,repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|951.3|11.2|-51.0], $canAccess|951.3|11.2|-51.0|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
@@ -1519,186 +1347,119 @@
                         "name": "Cabin 7 PDA",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|967.1|10.4|-47.4], $canAccess|967.1|10.4|-47.4|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Captain's Quarters PDA \n (Code 2679)",
+                        "name": "Captain's Quarters PDA\n(Code 2679)",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|971.2|10.8|-70.4], $canAccess|971.2|10.8|-70.4|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Captain's Quarters Data Terminal \n (Code 2679)",
+                        "name": "Captain's Quarters Data Terminal\n(Code 2679)",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|974.8|10.0|-77.0], $canAccess|974.8|10.0|-77.0|5, cutter:3, [propcannon:2]"
                         ],
                         "item_count": 1
                     }
                 ]
             },  
             {
-                "name": "Aurora Locker Room",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 645,
-                        "y": 449
+                "name": "Quarantine Enforcement Platform\nSurface",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 491,
+						"y": 158
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "PDA",
+                        "name": "Upper Alien Data Terminal",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair"
+                            "[$canAccess|432.2|3.0|1193.2], $canAccess|432.2|3.0|1193.2|5"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Medkit PDA",
+                        "name": "Center Alien Data Terminal",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair"
+                            "[$canAccess|474.4|-4.5|1224.4], $canAccess|474.4|-4.5|1224.4|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Aurora Black Box",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 685,
-                        "y": 435
+                "name": "Dunes Sanctuary (Requires Purple Tablet)\n400m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 155,
+						"y": 188
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Data Terminal",
+                        "name": "Alien Data Terminal",
                         "access_rules": 
                         [
-                            "radsuit, cutter:3, repair",
-                            "radsuit, cutter:3, cannon:2"
+                            "[$canAccess|-1224.2|-400.4|1057.9], $canAccess|-1224.2|-400.4|1057.9|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Quarantine Enforcement Platform",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 535,
-                        "y": 210
+                "name": "Sparse Reef Sanctuary (Requires Purple Tablet)\n315m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 221,
+						"y": 568
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Upper Alien Terminal",
+                        "name": "Alien Data Terminal",
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Center Alien Terminal",
-                        "access_rules": 
-                        [
-                            ""
+                            "[$canAccess|-895.5|-311.6|-838.1], $canAccess|-895.5|-311.6|-838.1|5"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Dunes Sanctuary \n (x: -1256, y: -398, z: 1097)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 182,
-                        "y": 173
+                "name": "North Blood Kelp Sanctuary (Requires Purple Tablet)\n565m below",
+				"map_locations":
+				[
+					{
+						"map": "Crater",
+						"x": 271,
+						"y": 103
                     }
                 ],
                 "sections": 
                 [
                     {
-                        "name": "Alien Terminal \n (Requires Purple Tablet)",
+                        "name": "Alien Data Terminal",
                         "access_rules": 
                         [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "seamoth:3, vehiclebay:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Sparse Reef Sanctuary \n (x: -884, y: -308, z: -792)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 230,
-                        "y": 600
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Alien Terminal \n (Requires Purple Tablet)",
-                        "access_rules": 
-                        [
-                            "seaglide:2, rebreather",
-                            "hightank, fins, rebreather, modify:3",
-                            "seamoth:3, vehiclebay:3, rebreather",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "North Blood Kelp Sanctuary \n (x: -601, y: -558, z: 1485)",
-                "map_locations": 
-                [
-                    {
-                        "map": "Crater",
-                        "x": 315,
-                        "y": 82
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Alien Terminal \n (Requires Purple Tablet)",
-                        "access_rules": 
-                        [
-                            "hightank, fins, rebreather, modify:3, seaglide:2",
-                            "vehiclebay:3, seamoth:3, rebreather, seaglide:2",
-                            "vehiclebay:3, prawn:4",
-                            "vehiclebay:3, cyclops:9"
+                            "[$canAccess|-642.9|-563.5|1485.5], $canAccess|-642.9|-563.5|1485.5|5"
                         ],
                         "item_count": 1
                     }
@@ -1706,4 +1467,4 @@
             }
         ]
     }
-]   
+]
