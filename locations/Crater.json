@@ -521,7 +521,7 @@
                         "name": "Hangar Databox",
                         "access_rules":
                         [
-                            "[$canAccess|698.2|-350.8|1186.9], $canAccess|698.2|-350.8|1186.9cutter:3
+                            "[$canAccess|698.2|-350.8|1186.9], $canAccess|698.2|-350.8|1186.9|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -529,7 +529,7 @@
                         "name": "Data Terminal",
                         "access_rules":
                         [
-                            "[$canAccess|703.7|-365.9|1199.3], $canAccess|703.7|-365.9|1199.3cutter:3
+                            "[$canAccess|703.7|-365.9|1199.3], $canAccess|703.7|-365.9|1199.3|5, cutter:3"
                         ],
                         "item_count": 1
                     }
@@ -589,7 +589,7 @@
                         "name": "Cargo Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|-655.1|-109.6|791.0], $canAccess|-655.1|-109.6|791.0cutter:3
+                            "[$canAccess|-655.1|-109.6|791.0], $canAccess|-655.1|-109.6|791.0|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -635,7 +635,7 @@
                         "name": "Hangar Databox",
                         "access_rules": 
                         [ 
-                            "[$canAccess|-1129.5|-155.2|-729.3], $canAccess|-1129.5|-155.2|-729.3cutter:3
+                            "[$canAccess|-1129.5|-155.2|-729.3], $canAccess|-1129.5|-155.2|-729.3|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -711,7 +711,7 @@
                         "name": "Hangar Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|-138.4|-193.6|888.7], $canAccess|-138.4|-193.6|888.7cutter:3
+                            "[$canAccess|-138.4|-193.6|888.7], $canAccess|-138.4|-193.6|888.7|5, cutter:3"
                         ],
                         "item_count": 1
                     },
@@ -745,7 +745,7 @@
                         "name": "Data Terminal",
                         "access_rules": 
                         [
-                            "[$canAccess|-130.7|-193.2|883.3], $canAccess|-130.7|-193.2|883.3cutter:3
+                            "[$canAccess|-130.7|-193.2|883.3], $canAccess|-130.7|-193.2|883.3|5, cutter:3"
                         ],
                         "item_count": 1
                     }
