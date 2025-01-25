@@ -673,7 +673,7 @@
                         "name": "Locker Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|-789.8|-216.1|-711.0], $canAccess|-789.8|-216.1|-711.0|5"
+                            "[$canAccess|-789.8|-216.1|-711.0], $canAccess|-789.8|-216.1|-711.0|5, cutter:3"
                         ],
                         "item_count": 1
                     },  
@@ -681,7 +681,7 @@
                         "name": "Lab Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|-795.5|-204.1|-774.7], $canAccess|-795.5|-204.1|-774.7|5, "
+                            "[$canAccess|-795.5|-204.1|-774.7], $canAccess|-795.5|-204.1|-774.7|5, cutter:3"
                         ],
                         "item_count": 1
                     }
