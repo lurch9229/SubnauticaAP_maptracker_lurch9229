@@ -349,7 +349,7 @@
                         "name": "Breach Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|313.9|-91.8|432.6], $canAccess|313.9|-91.8|432.6|5, [cutter:3]"
+                            "[$canAccess|313.9|-91.8|432.6], $canAccess|313.9|-91.8|432.6|5, cutter:3"
                         ],  
                         "item_count": 1
                     },
@@ -357,7 +357,7 @@
                         "name": "Hangar Databox",
                         "access_rules":
                         [                         
-                            "[$canAccess|319.4|-104.3|441.5], $canAccess|319.4|-104.3|441.5|5, [cutter:3]"
+                            "[$canAccess|319.4|-104.3|441.5], $canAccess|319.4|-104.3|441.5|5, cutter:3"
                         ],
                         "item_count": 1
                     }
@@ -673,7 +673,7 @@
                         "name": "Locker Databox",
                         "access_rules": 
                         [
-                            "[$canAccess|-789.8|-216.1|-711.0], $canAccess|-789.8|-216.1|-711.0|5"
+                            "[$canAccess|-789.8|-216.1|-711.0], $canAccess|-789.8|-216.1|-711.0|5, cutter:3"
                         ],
                         "item_count": 1
                     },  
